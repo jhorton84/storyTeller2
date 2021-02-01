@@ -13,9 +13,27 @@
 
 .card {
   margin-bottom: 50px;
+  border-bottom: 2px solid rgb(180, 180, 180);
+  padding-bottom: 50px;
 }
 
 .card img {
   /* height: 250px; */
   width: 300px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    display: flex;
+    border-bottom: 2px solid rgb(180, 180, 180);
+    padding-bottom: 50px;
+  }
+  .GameList-component {
+    width: 100%;
+  }
+  .card-details {
+    width: 500px;
+    margin-left: 20px;
+    padding: 10px;
+  }
 }

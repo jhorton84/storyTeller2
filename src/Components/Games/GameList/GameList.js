@@ -9,9 +9,11 @@ function GameList(gameInfo) {
     return (
       <div className="card">
         <img src={image} />
-        <h1>{title}</h1>
-        <p>{description}</p>
-        <button>Play "{title}"</button>
+        <div className="card-details">
+          <h1>{title}</h1>
+          <p>{description}</p>
+          <button>Play "{title}"</button>
+        </div>
       </div>
     );
   });
