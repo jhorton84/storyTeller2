@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import gameApi from '../../../gamesApi/gamesApi.json';
 import '../games.css';
 
 function GameList(gameInfo) {
