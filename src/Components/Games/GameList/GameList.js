@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import '../games.css';
 
 function GameList(gameInfo) {
-  console.log('gameInfo GameList', gameInfo);
   const games = gameInfo.gameInfo.map(e => {
     const { image, title, description } = e.campaign;
     return (

@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   display: flex;
-  /* background: rgb(189, 189, 189); */
   background: whitesmoke;
   height: 100vh;
   align-items: center;
@@ -12,14 +11,12 @@
   height: 80%;
   width: 80%;
   display: flex;
-  /* background: yellow; */
   justify-content: center;
   align-items: center;
   flex-direction: row;
   margin-top: 50px;
 }
 .routes-components {
-  /* background: turquoise; */
   height: 90%;
   width: 90%;
   display: flex;

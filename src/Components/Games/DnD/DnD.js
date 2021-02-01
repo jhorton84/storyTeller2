@@ -4,7 +4,6 @@ import GameList from '../GameList/GameList';
 
 function DnD() {
   const gameInfo = gameApi.game.DnD.campaigns;
-  console.log('gameInfo DnD', gameInfo);
   return (
     <div className="DnD-component">
       <div className="DnD">
