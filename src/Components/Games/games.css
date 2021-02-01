@@ -1,0 +1,14 @@
+.DnD-component {
+  /* background: magenta; */
+  height: 600px;
+  overflow: scroll;
+}
+
+.card {
+  margin-bottom: 50px;
+  /* overflow-y: scroll; */
+}
+
+.card img {
+  height: 250px;
+}
