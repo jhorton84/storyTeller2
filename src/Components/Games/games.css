@@ -1,0 +1,38 @@
+.GameList-component {
+  height: 600px;
+  width: 300px;
+  overflow: scroll;
+}
+
+.GameList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin-bottom: 50px;
+  border-bottom: 2px solid rgb(180, 180, 180);
+  padding-bottom: 50px;
+}
+
+.card img {
+  width: 300px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    display: flex;
+    border-bottom: 2px solid rgb(180, 180, 180);
+    padding-bottom: 50px;
+  }
+  .GameList-component {
+    width: 100%;
+  }
+  .card-details {
+    width: 500px;
+    margin-left: 20px;
+    padding: 10px;
+  }
+}

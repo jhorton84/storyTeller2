@@ -1,15 +1,14 @@
 .main-component {
-	display: flex;
-	flex-direction: row;
-	width: 90%;
-	height: 90%;
-	justify-content: center;
-	align-items: center;
-	background: coral;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
 }
 
 .main1 {
-	width: 90%;
-	height: 90%;
-	background: whitesmoke;
+  width: 90%;
+  height: 90%;
+  background: whitesmoke;
 }
