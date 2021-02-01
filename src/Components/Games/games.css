@@ -1,14 +1,21 @@
-.DnD-component {
-  /* background: magenta; */
+.GameList-component {
   height: 600px;
+  width: 300px;
   overflow: scroll;
+}
+
+.GameList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
   margin-bottom: 50px;
-  /* overflow-y: scroll; */
 }
 
 .card img {
-  height: 250px;
+  /* height: 250px; */
+  width: 300px;
 }

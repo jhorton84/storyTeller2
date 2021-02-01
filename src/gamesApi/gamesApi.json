@@ -19,6 +19,25 @@
         }
       ]
     },
-    "L5R": {}
+    "L5R": {
+      "campaigns": [
+        {
+          "campaign": {
+            "title": "Topaz Championship",
+            "difficulty": "beginner",
+            "image": "https://pbs.twimg.com/media/EN_59JVWsAAGtpC.jpg",
+            "description": "The recent, untimely, and mysterious death of the Emerald Champion, Doji Satsume of the Crane Clan, has thrown the Emerald Empire into turmoil. Each of the Great Clans suspiciously eyes the others and wonders whether the death was no tragic accident, but a dishonorable act of murder. In these times of strife, a group of youths approaches the village of Tsuma for the Topaz Championship and their gempuku, the coming-of-age ceremony that will mark them as fully fledged samurai. Each contestant has come from a different clan and dreams of being the highest-scoring contestant in the tournament, earning the title of Topaz Champion. Despite being pitted against one another, they are all united in their desire to succeed and bring honor to their clan and family."
+          }
+        },
+        {
+          "campaign": {
+            "title": "Winter's Embrace",
+            "difficulty": "intermediate",
+            "image": "https://cdn.shoplightspeed.com/shops/638935/files/25149467/262x276x2/fantasy-flight-games-legend-of-the-five-rings-5e-w.jpg",
+            "description": "Being invited to the Emperor’s Winter Court is daunting enough, but an invitation to tea with the legendary member of the Crane Clan thrusts you into the thick of a devious scheme. Your group is tasked with uncovering the truth behind how a dangerous band of scoundrels from the Mantis Clan secured a coveted invitation to the event, and, more importantly, what plots do they hope to accomplish while they are here."
+          }
+        }
+      ]
+    }
   }
 }
