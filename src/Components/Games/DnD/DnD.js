@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import gameApi from '../../../gamesApi/gamesApi.json';
 import GameList from '../GameList/GameList';
 
@@ -7,7 +7,7 @@ function DnD() {
   return (
     <div className="DnD-component">
       <div className="DnD">
-        <GameList gameInfo={gameInfo} />
+        <GameList gameInfo={gameInfo} game="DnD" />
       </div>
     </div>
   );

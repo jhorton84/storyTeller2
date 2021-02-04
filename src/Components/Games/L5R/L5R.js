@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import gameApi from '../../../gamesApi/gamesApi.json';
 import GameList from '../GameList/GameList';
 
@@ -7,7 +7,7 @@ function L5R() {
   return (
     <div className="L5R-component">
       <div className="L5R">
-        <GameList gameInfo={gameInfo} />
+        <GameList gameInfo={gameInfo} game="L5R" />
       </div>
     </div>
   );

@@ -10,12 +10,12 @@ export default function Nav() {
         <NavLink activeClassname="active" exact to="/">
           Home
         </NavLink>
-        <div class="dropdown">
-          <button class="dropbtn">
+        <div className="dropdown">
+          <button className="dropbtn">
             Game
-            <i class="fa fa-caret-down"></i>
+            <i className="fa fa-caret-down"></i>
           </button>
-          <div class="dropdown-content">
+          <div className="dropdown-content">
             <NavLink activeClassname="active" exact to="/dnd">
               DnD
             </NavLink>

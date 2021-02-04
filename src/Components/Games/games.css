@@ -1,4 +1,10 @@
-.GameList-component {
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list {
   height: 600px;
   width: 300px;
   overflow: scroll;
@@ -15,10 +21,23 @@
   margin-bottom: 50px;
   border-bottom: 2px solid rgb(180, 180, 180);
   padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .card img {
   width: 300px;
+}
+
+.small-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.row {
+  display: flex;
 }
 
 @media (min-width: 768px) {
@@ -26,12 +45,20 @@
     display: flex;
     border-bottom: 2px solid rgb(180, 180, 180);
     padding-bottom: 50px;
+    flex-direction: row;
   }
-  .GameList-component {
+  .list {
     width: 100%;
   }
+  .card img {
+    width: 300px;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
   .card-details {
-    width: 500px;
+    /* width: 50%; */
     margin-left: 20px;
     padding: 10px;
   }

@@ -6,6 +6,8 @@ import DnD from './Components/Games/DnD/DnD';
 import L5R from './Components/Games/L5R/L5R';
 // import { withRouter } from 'react-router';
 import { Switch, Route } from 'react-router';
+import CharacterCreation from './Components/CharacterCreation/CharacterCreation';
+import Q2Family from './Components/CharacterCreation/L5R Questions/Q2.Family';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
             <Route exact path="/" component={Main} />
             <Route exact path="/dnd" component={DnD} />
             <Route exact path="/l5r" component={L5R} />
+            <Route exact path="/character-creation-:game" component={CharacterCreation} />
+            <Route exact path="/character-creation-L5R/Family" component={Q2Family} />
           </Switch>
         </div>
       </div>

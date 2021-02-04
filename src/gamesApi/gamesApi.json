@@ -17,6 +17,11 @@
             "image": "https://images-na.ssl-images-amazon.com/images/I/91mv3QQMNSL.jpg"
           }
         }
+      ],
+      "characterCreation": [
+        {
+          "title": "Choosing a Race"
+        }
       ]
     },
     "L5R": {
@@ -36,6 +41,71 @@
             "image": "https://cdn.shoplightspeed.com/shops/638935/files/25149467/262x276x2/fantasy-flight-games-legend-of-the-five-rings-5e-w.jpg",
             "description": "Being invited to the Emperor’s Winter Court is daunting enough, but an invitation to tea with the legendary member of the Crane Clan thrusts you into the thick of a devious scheme. Your group is tasked with uncovering the truth behind how a dangerous band of scoundrels from the Mantis Clan secured a coveted invitation to the event, and, more importantly, what plots do they hope to accomplish while they are here."
           }
+        }
+      ],
+      "characterCreation": [
+        {
+          "questions": ["What Clan Does Your Character Belong To?"],
+          "clans": [
+            {
+              "clanName": "Crab",
+              "ring": "+1 Earth",
+              "skill": "+1 Fitness",
+              "status": 30,
+              "color": "darkblue",
+              "description": "Crab characters tend to be rowdier and more uncouth than perhaps other clans. These stout warriors focus on Courage as the greatest virtue. These warriors and craftsmen are the first defense against the corrupted armies of Jigoku and defenders of the great Kaiu Wall.",
+              "image": "https://www.clipartkey.com/mpngs/m/173-1735502_legend-of-the-five-rings-crab-clan-symbol.png"
+            },
+            {
+              "clanName": "Crane",
+              "ring": "+1 Air",
+              "skill": "+1 Culture",
+              "status": 35,
+              "description": "The Crane Clan represents the pinnacle of refinement in Rokugan, and its members are known for their elegance, grace, and mastery of social customs. The Crane have become both the poets and the poetry of the Empire, at once the swordsmiths and the duelists wielding the smiths' blades. In every aspect of their lives, the Crane strive for mastery in all things. Courtesy is of deep importance to Crane characters while courage in excess is considered to lead to foolhardiness.",
+              "color": "lightblue",
+              "image": "https://images-cdn.fantasyflightgames.com/filer_public/15/4f/154f4145-083e-4261-b6db-04205116f159/crane.png"
+            },
+            {
+              "clanName": "Dragon",
+              "ring": "+1 Fire",
+              "skill": "+1 Meditation",
+              "status": 30,
+              "color": "green",
+              "image": "https://images-cdn.fantasyflightgames.com/filer_public/83/c2/83c2dfcb-5315-464c-82bb-b32342c05c90/dragon.png"
+            },
+            {
+              "clanName": "Lion",
+              "ring": "+1 Water",
+              "skill": "+1 Tactics",
+              "status": 35,
+              "color": "goldenrod",
+              "image": "https://images-cdn.fantasyflightgames.com/filer_public/2a/d0/2ad0349c-0a07-4fef-bce5-ab9fc8274669/lion.png"
+            },
+            {
+              "clanName": "Phoenix",
+              "ring": "+1 Void",
+              "skill": "+1 Theology",
+              "status": 30,
+              "color": "orange",
+              "image": "https://images-cdn.fantasyflightgames.com/filer_public/ba/83/ba8393c2-f6ba-4049-a0b5-79abd47d0f92/phoenix.png"
+            },
+            {
+              "clanName": "Scorpion",
+              "ring": "+1 Air",
+              "skill": "+1 Skulduggery",
+              "status": 35,
+              "color": "darkred",
+              "image": "https://images-cdn.fantasyflightgames.com/filer_public/39/95/3995675b-773a-4455-a69a-28b663d300e7/scorpion.png"
+            },
+            {
+              "clanName": "Unicorn",
+              "ring": "+1 Water",
+              "skill": "+1 Survival",
+              "status": 30,
+              "color": "purple",
+              "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/e0/b5e037b3-68d7-4985-8b97-88940cb1f15c/unicorn.png"
+            }
+          ]
         }
       ]
     }
