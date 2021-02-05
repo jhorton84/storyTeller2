@@ -105,6 +105,63 @@
               "color": "purple",
               "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/e0/b5e037b3-68d7-4985-8b97-88940cb1f15c/unicorn.png"
             }
+          ],
+          "families": [
+            {
+              "clanName": "Crab",
+              "familyName": "Hida",
+              "ring1": "+1 Earth",
+              "ring2": "+1 Fire",
+              "skill1": "+1 Command",
+              "Skill2": "+1 Tactics",
+              "glory": 44,
+              "starting wealth": "4 koku",
+              "description": "The Hida family stands guard against the Shadowlands, its task an eternal vigil to keep the Empire safe from the dark forces of Jigoku."
+            },
+            {
+              "clanName": "Crab",
+              "familyName": "Hiruma",
+              "ring1": "+1 Air",
+              "ring2": "+1 Water",
+              "skill1": "+1 Skulduggery",
+              "Skill2": "+1 Survival",
+              "glory": 39,
+              "starting wealth": "3 koku",
+              "description": "The Hiruma are the eyes and ears of the Crab beyond the Wall, warning of attacks and staging spoiling raids on the unending hordes, a desperate and unrewarding task."
+            },
+            {
+              "clanName": "Crab",
+              "familyName": "Kaiu",
+              "ring1": "+1 Earth",
+              "ring2": "+1 Fire",
+              "skill1": "+1 Smithing",
+              "Skill2": "+1 Labor",
+              "glory": 40,
+              "starting wealth": "5 koku",
+              "description": "Monuments to the skill of the Kaiu are everywhere in the Crab lands, from the vast Kaiu Wall itself to the armor and weapons used by those who stand guard over it. There are very few problems that the Kaiu will not try to solve with applied engineering"
+            },
+            {
+              "clanName": "Crab",
+              "familyName": "Kuni",
+              "ring1": "+1 Earth",
+              "ring2": "+1 Void",
+              "skill1": "+1 Medicine",
+              "Skill2": "+1 Theology",
+              "glory": 40,
+              "starting wealth": "4 koku",
+              "description": "No shugenja family is more feared in the Empire than the Kuni, who root out any sign of corruption. The Kuni use all means at their disposal in their hunt; even Hida samurai sometimes pale at their methods. The Kuni are willing to delve into the secrets of the Shadowlands using study, observation, and even dissection, even though such close contact with its dark creatures risks their very souls."
+            },
+            {
+              "clanName": "Crab",
+              "familyName": "Yasuki",
+              "ring1": "+1 Air",
+              "ring2": "+1 Water",
+              "skill1": "+1 Commerce",
+              "Skill2": "+1 Design",
+              "glory": 39,
+              "starting wealth": "10 koku",
+              "description": "The slim and loquacious Yasuki do not fit the Crab stereotype, but they provide a vital service to their clan all the same. The first masters of markets in the Empire, the Yasuki use the tools of trade and industry to keep the Crab armies well equipped and fed, even if it means the occassional shady deal. The Yasuki trade network extends throughout the Empire; members of this family can be found just about anywhere, looking for the next arrangement."
+            }
           ]
         }
       ]

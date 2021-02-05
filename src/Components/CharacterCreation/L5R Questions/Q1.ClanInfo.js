@@ -1,12 +1,12 @@
 import React from 'react';
 
 function ClanInfo({ clanName, clansInfo }) {
-  console.log('clansInfo ==>', clansInfo);
-  console.log('clanCheck ==> ', clansInfo[0]);
+  // console.log('clansInfo ==>', clansInfo);
+  // console.log('clanCheck ==> ', clansInfo[0]);
   const clanInfo = clansInfo.map(clanObject => {
     if (clanObject.clanName === clanName) {
-      console.log('clanObject', clanObject.clanName);
-      console.log('clanName', clanName);
+      // console.log('clanObject', clanObject.clanName);
+      // console.log('clanName', clanName);
       return (
         <div className="small-card">
           <p>{clanObject.clanName} Clan Stat Increases</p>

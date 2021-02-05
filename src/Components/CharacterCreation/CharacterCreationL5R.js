@@ -21,7 +21,7 @@ function CharacterCreationL5R({ characterCreation }) {
           <ClanInfo clanName={clan} clansInfo={characterCreation[0].clans} />
         </div>
       </div>
-      <NavLink to="/character-creation-L5R/Family">
+      <NavLink to={`/character-creation-L5R/Family/${clan}`}>
         <button>Choose your Family</button>
       </NavLink>
     </div>

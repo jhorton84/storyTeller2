@@ -8,6 +8,7 @@ function CharacterCreation(props) {
   //Renders dynamically either the L5R or the DnD character creation components and their various character creation
   // screens based on if the user selected an L5R or DnD campaign to play.
   const gameName = props.match.params.game;
+  console.log(gameName, 'gameName');
 
   let characterCreation;
   gameName === 'DnD'

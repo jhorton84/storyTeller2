@@ -20,7 +20,7 @@ function App() {
             <Route exact path="/dnd" component={DnD} />
             <Route exact path="/l5r" component={L5R} />
             <Route exact path="/character-creation-:game" component={CharacterCreation} />
-            <Route exact path="/character-creation-L5R/Family" component={Q2Family} />
+            <Route exact path="/character-creation-L5R/Family/:clan" component={Q2Family} />
           </Switch>
         </div>
       </div>
