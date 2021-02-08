@@ -7,7 +7,7 @@ export default function Nav() {
     <div className="Nav">
       Nav
       <div className="links">
-        <NavLink activeClassname="active" exact to="/">
+        <NavLink exact to="/">
           Home
         </NavLink>
         <div className="dropdown">
@@ -16,15 +16,15 @@ export default function Nav() {
             <i className="fa fa-caret-down"></i>
           </button>
           <div className="dropdown-content">
-            <NavLink activeClassname="active" exact to="/dnd">
+            <NavLink exact to="/dnd">
               DnD
             </NavLink>
-            <NavLink activeClassname="active" exact to="/l5r">
+            <NavLink exact to="/l5r">
               L5R
             </NavLink>
           </div>
         </div>
-        <NavLink activeClassname="active" exact to="/$">
+        <NavLink exact to="/$">
           Log In
         </NavLink>
       </div>

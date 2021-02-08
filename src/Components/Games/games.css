@@ -1,12 +1,94 @@
-.row {
+.Crab {
+  background-image: url(https://images-cdn.fantasyflightgames.com/filer_public/ca/89/ca89e75e-6853-4f40-9ed1-e7e656e75f01/crab.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.Crane {
+  background-image: url(https://images-cdn.fantasyflightgames.com/filer_public/15/4f/154f4145-083e-4261-b6db-04205116f159/crane.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.Dragon {
+  background-image: url(https://images-cdn.fantasyflightgames.com/filer_public/83/c2/83c2dfcb-5315-464c-82bb-b32342c05c90/dragon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.Lion {
+  background-image: url(https://images-cdn.fantasyflightgames.com/filer_public/2a/d0/2ad0349c-0a07-4fef-bce5-ab9fc8274669/lion.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.Phoenix {
+  background-image: url(https://images-cdn.fantasyflightgames.com/filer_public/ba/83/ba8393c2-f6ba-4049-a0b5-79abd47d0f92/phoenix.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.Scorpion {
+  background-image: url(https://images-cdn.fantasyflightgames.com/filer_public/39/95/3995675b-773a-4455-a69a-28b663d300e7/scorpion.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.Unicorn {
+  background-image: url(https://images-cdn.fantasyflightgames.com/filer_public/b5/e0/b5e037b3-68d7-4985-8b97-88940cb1f15c/unicorn.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.border-bottom {
+  border-bottom: 2px solid rgb(180, 180, 180);
+  padding: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 10px;
+}
+select {
+  /* padding: 10px; */
+  /* margin: 5px; */
+}
+
+.Q1Clan-component {
+  /* background: red; */
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+}
+.clan-list button {
+  margin-bottom: 20px;
+}
+
+.CharacterCreation {
+  /* background: orange; */
+  /* width: 100vw; */
+}
+.CharacterCreationL5R {
+  /* background: green; */
+  width: 100%;
+}
+
+.Q1Family-component {
+  position: relative;
+}
+
+.main-container {
+  /* margin-bottom: 50px; */
+  /* background: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* width: 300px; */
 }
 
 .list {
-  height: 600px;
-  width: 300px;
   overflow: scroll;
 }
 
@@ -18,9 +100,6 @@
 }
 
 .card {
-  margin-bottom: 50px;
-  border-bottom: 2px solid rgb(180, 180, 180);
-  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -28,12 +107,39 @@
 }
 
 .card img {
-  width: 300px;
+  height: 300px;
+  padding: 20px;
+}
+
+.card-details {
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  /* width: 100%; */
+  /* background: yellow; */
+  flex-direction: column;
 }
 
 .small-card img {
   width: 100px;
   height: 100px;
+}
+
+.option button {
+  border: none;
+  background: none;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-buttons button {
+  margin: 50px;
 }
 
 @media (min-width: 768px) {
@@ -42,6 +148,7 @@
     border-bottom: 2px solid rgb(180, 180, 180);
     padding-bottom: 50px;
     flex-direction: row;
+    align-items: flex-start;
   }
   .list {
     width: 100%;
@@ -53,9 +160,12 @@
     display: flex;
     flex-direction: column;
   }
-  .card-details {
-    /* width: 50%; */
-    margin-left: 20px;
-    padding: 10px;
+  .small-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info {
+    flex-direction: column;
   }
 }

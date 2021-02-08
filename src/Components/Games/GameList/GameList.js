@@ -7,7 +7,7 @@ function GameList({ gameInfo, game }) {
   const games = gameInfo.map(e => {
     const { image, title, description } = e.campaign;
     return (
-      <div className="card">
+      <div className="card border-bottom">
         <img src={image} alt="" />
         <div className="card-details">
           <h1>{title}</h1>

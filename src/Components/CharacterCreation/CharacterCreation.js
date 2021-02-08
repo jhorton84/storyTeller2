@@ -1,8 +1,7 @@
 import React from 'react';
 import GamesApi from '../../gamesApi/gamesApi.json';
-import CharacterCreationL5R from './CharacterCreationL5R';
+import CharacterCreationForm from './CharacterCreationForm';
 import CharacterCreationDnD from './CharacterCreationDnD';
-import './CharacterCreation.css';
 
 function CharacterCreation(props) {
   //Renders dynamically either the L5R or the DnD character creation components and their various character creation
@@ -21,7 +20,7 @@ function CharacterCreation(props) {
   return (
     <div className="CharacterCreation">
       {gameName === 'L5R' ? (
-        <CharacterCreationL5R characterCreation={characterCreation} />
+        <CharacterCreationForm characterCreation={characterCreation} />
       ) : (
         <CharacterCreationDnD characterCreation={characterCreation} />
       )}

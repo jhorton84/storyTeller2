@@ -45,7 +45,7 @@
       ],
       "characterCreation": [
         {
-          "questions": ["What Clan Does Your Character Belong To?"],
+          "questions": ["What Clan Does Your Character Belong To?", ""],
           "clans": [
             {
               "clanName": "Crab",
@@ -54,7 +54,7 @@
               "status": 30,
               "color": "darkblue",
               "description": "Crab characters tend to be rowdier and more uncouth than perhaps other clans. These stout warriors focus on Courage as the greatest virtue. These warriors and craftsmen are the first defense against the corrupted armies of Jigoku and defenders of the great Kaiu Wall.",
-              "image": "https://www.clipartkey.com/mpngs/m/173-1735502_legend-of-the-five-rings-crab-clan-symbol.png"
+              "image": "https://images-cdn.fantasyflightgames.com/filer_public/ca/89/ca89e75e-6853-4f40-9ed1-e7e656e75f01/crab.png"
             },
             {
               "clanName": "Crane",
@@ -62,7 +62,7 @@
               "skill": "+1 Culture",
               "status": 35,
               "description": "The Crane Clan represents the pinnacle of refinement in Rokugan, and its members are known for their elegance, grace, and mastery of social customs. The Crane have become both the poets and the poetry of the Empire, at once the swordsmiths and the duelists wielding the smiths' blades. In every aspect of their lives, the Crane strive for mastery in all things. Courtesy is of deep importance to Crane characters while courage in excess is considered to lead to foolhardiness.",
-              "color": "lightblue",
+              "color": "#4e8de0",
               "image": "https://images-cdn.fantasyflightgames.com/filer_public/15/4f/154f4145-083e-4261-b6db-04205116f159/crane.png"
             },
             {
@@ -106,63 +106,158 @@
               "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/e0/b5e037b3-68d7-4985-8b97-88940cb1f15c/unicorn.png"
             }
           ],
-          "families": [
+          "Families": [
             {
-              "clanName": "Crab",
-              "familyName": "Hida",
-              "ring1": "+1 Earth",
-              "ring2": "+1 Fire",
-              "skill1": "+1 Command",
-              "Skill2": "+1 Tactics",
-              "glory": 44,
-              "starting wealth": "4 koku",
-              "description": "The Hida family stands guard against the Shadowlands, its task an eternal vigil to keep the Empire safe from the dark forces of Jigoku."
-            },
-            {
-              "clanName": "Crab",
-              "familyName": "Hiruma",
-              "ring1": "+1 Air",
-              "ring2": "+1 Water",
-              "skill1": "+1 Skulduggery",
-              "Skill2": "+1 Survival",
-              "glory": 39,
-              "starting wealth": "3 koku",
-              "description": "The Hiruma are the eyes and ears of the Crab beyond the Wall, warning of attacks and staging spoiling raids on the unending hordes, a desperate and unrewarding task."
-            },
-            {
-              "clanName": "Crab",
-              "familyName": "Kaiu",
-              "ring1": "+1 Earth",
-              "ring2": "+1 Fire",
-              "skill1": "+1 Smithing",
-              "Skill2": "+1 Labor",
-              "glory": 40,
-              "starting wealth": "5 koku",
-              "description": "Monuments to the skill of the Kaiu are everywhere in the Crab lands, from the vast Kaiu Wall itself to the armor and weapons used by those who stand guard over it. There are very few problems that the Kaiu will not try to solve with applied engineering"
-            },
-            {
-              "clanName": "Crab",
-              "familyName": "Kuni",
-              "ring1": "+1 Earth",
-              "ring2": "+1 Void",
-              "skill1": "+1 Medicine",
-              "Skill2": "+1 Theology",
-              "glory": 40,
-              "starting wealth": "4 koku",
-              "description": "No shugenja family is more feared in the Empire than the Kuni, who root out any sign of corruption. The Kuni use all means at their disposal in their hunt; even Hida samurai sometimes pale at their methods. The Kuni are willing to delve into the secrets of the Shadowlands using study, observation, and even dissection, even though such close contact with its dark creatures risks their very souls."
-            },
-            {
-              "clanName": "Crab",
-              "familyName": "Yasuki",
-              "ring1": "+1 Air",
-              "ring2": "+1 Water",
-              "skill1": "+1 Commerce",
-              "Skill2": "+1 Design",
-              "glory": 39,
-              "starting wealth": "10 koku",
-              "description": "The slim and loquacious Yasuki do not fit the Crab stereotype, but they provide a vital service to their clan all the same. The first masters of markets in the Empire, the Yasuki use the tools of trade and industry to keep the Crab armies well equipped and fed, even if it means the occassional shady deal. The Yasuki trade network extends throughout the Empire; members of this family can be found just about anywhere, looking for the next arrangement."
+              "": [],
+              "Crab": [
+                {
+                  "clanName": "Crab",
+                  "familyName": "Hida",
+                  "ring1": "+1 Earth",
+                  "ring2": "+1 Fire",
+                  "skill1": "+1 Command",
+                  "skill2": "+1 Tactics",
+                  "glory": 44,
+                  "startingWealth": "4 koku",
+                  "description": "The Hida family stands guard against the Shadowlands, its task an eternal vigil to keep the Empire safe from the dark forces of Jigoku. Like the family's founder, the Kami Hida, they are large and strong, tough and enduring, with little patience for the weaknesses of others. Their harsh duty makes the Hida exceedingly pragmatic, with little time for the polite fictions of court. They bitterly bear the mocking condescension concerning their manners and dress from the clans they shield.",
+                  "color": "darkblue"
+                },
+                {
+                  "clanName": "Crab",
+                  "familyName": "Hiruma",
+                  "ring1": "+1 Air",
+                  "ring2": "+1 Water",
+                  "skill1": "+1 Skulduggery",
+                  "skill2": "+1 Survival",
+                  "glory": 39,
+                  "startingWealth": "3 koku",
+                  "description": "The Hiruma are the eyes and ears of the Crab beyond the Wall, warning of attacks and staging spoiling raids on the unending hordes, a desperate and unrewarding task.",
+                  "color": "darkblue"
+                },
+                {
+                  "clanName": "Crab",
+                  "familyName": "Kaiu",
+                  "ring1": "+1 Earth",
+                  "ring2": "+1 Fire",
+                  "skill1": "+1 Smithing",
+                  "skill2": "+1 Labor",
+                  "glory": 40,
+                  "startingWealth": "5 koku",
+                  "description": "Monuments to the skill of the Kaiu are everywhere in the Crab lands, from the vast Kaiu Wall itself to the armor and weapons used by those who stand guard over it. There are very few problems that the Kaiu will not try to solve with applied engineering",
+                  "color": "darkblue"
+                },
+                {
+                  "clanName": "Crab",
+                  "familyName": "Kuni",
+                  "ring1": "+1 Earth",
+                  "ring2": "+1 Void",
+                  "skill1": "+1 Medicine",
+                  "skill2": "+1 Theology",
+                  "glory": 40,
+                  "startingWealth": "4 koku",
+                  "description": "No shugenja family is more feared in the Empire than the Kuni, who root out any sign of corruption. The Kuni use all means at their disposal in their hunt; even Hida samurai sometimes pale at their methods. The Kuni are willing to delve into the secrets of the Shadowlands using study, observation, and even dissection, even though such close contact with its dark creatures risks their very souls.",
+                  "color": "darkblue"
+                },
+                {
+                  "clanName": "Crab",
+                  "familyName": "Yasuki",
+                  "ring1": "+1 Air",
+                  "ring2": "+1 Water",
+                  "skill1": "+1 Commerce",
+                  "skill2": "+1 Design",
+                  "glory": 39,
+                  "startingWealth": "10 koku",
+                  "description": "The slim and loquacious Yasuki do not fit the Crab stereotype, but they provide a vital service to their clan all the same. The first masters of markets in the Empire, the Yasuki use the tools of trade and industry to keep the Crab armies well equipped and fed, even if it means the occassional shady deal. The Yasuki trade network extends throughout the Empire; members of this family can be found just about anywhere, looking for the next arrangement.",
+                  "color": "darkblue"
+                }
+              ],
+              "Crane": [
+                {
+                  "clanName": "Crane",
+                  "familyName": "Asahina",
+                  "ring1": "+1 Water",
+                  "ring2": "+1 Void",
+                  "skill1": "+1 Aesthetics",
+                  "skill2": "+1 Theology",
+                  "glory": 40,
+                  "startingWealth": "6 koku",
+                  "description": "The Asahina seek harmony and peace in all things, embodying a philosophy of compassion and pacifism that sets them apart even from their fellow Crane. Through art and prayer, they seek to calm and soothe the world around them and spread peace and accord throughout the Empire. The Asahina know that only through sacrifice can true peace be purchased, and it is a price they will pay to foster a better Empire.",
+                  "color": "#4e8de0"
+                },
+                {
+                  "clanName": "Crane",
+                  "familyName": "Doji",
+                  "ring1": "+1 Air",
+                  "ring2": "+1 Water",
+                  "skill1": "+1 Courtesy",
+                  "skill2": "+1 Design",
+                  "glory": 44,
+                  "startingWealth": "8 koku",
+                  "description": "The descendants of the Kami Doji have embodied the courtly arts and refined culture of the Empire since its dawn. No major court is complete without its contingent of Doji spreading art, friendship, and - until very recently - generous gifts. For courtly news and rumor, the Doji communication network is unrivaled. This network aids the Doji in keeping ahead of their rivals as much as their mastery of etiquette and art does. Rare are those who can afford to offend the Doji; rarer still are those who do so more than once.",
+                  "color": "#4e8de0"
+                },
+                {
+                  "clanName": "Crane",
+                  "familyName": "Daidoji",
+                  "ring1": "+1 Earth",
+                  "ring2": "+1 Water",
+                  "skill1": "+1 Fitness",
+                  "skill2": "+1 Tactics",
+                  "glory": 40,
+                  "startingWealth": "7 koku",
+                  "description": "The Daidoji are practical and hardworking Crane who compose the core of the clan's standing military. Devoted to serving their clan, the Daidoji are its under-appreciated foundation - from the Iron Warriors who comprise the foundation of the Crane Clan's armies, to the Daidoji Trading Council responsible for providing the raw materials and wealth for Crane arts. The selfless efforts of the Daidoji are fundamental to the defense of the Crane and the advancement of its goals.",
+                  "color": "#4e8de0"
+                },
+                {
+                  "clanName": "Crane",
+                  "familyName": "Kakita",
+                  "ring1": "+1 Air",
+                  "ring2": "+1 Fire",
+                  "skill1": "+1 Aesthetics",
+                  "skill2": "+1 Meditation",
+                  "glory": 40,
+                  "startingWealth": "7 koku",
+                  "description": "The Daidoji are practical and hardworking Crane who compose the core of the clan's standing military. Devoted to serving their clan, the Daidoji are its under-appreciated foundation - from the Iron Warriors who comprise the foundation of the Crane Clan's armies, to the Daidoji Trading Council responsible for providing the raw materials and wealth for Crane arts. The selfless efforts of the Daidoji are fundamental to the defense of the Crane and the advancement of its goals.",
+                  "color": "#4e8de0"
+                }
+              ]
             }
-          ]
+          ],
+          "ringIncreases": {
+            "Family": {
+              "Crab": {
+                "Hida": {
+                  "rings": ["Earth", "Fire"]
+                },
+                "Hiruma": {
+                  "rings": ["Air", "Water"]
+                },
+                "Kaiu": {
+                  "rings": ["Earth", "Fire"]
+                },
+                "Kuni": {
+                  "rings": ["Earth", "Void"]
+                },
+                "Yasuki": {
+                  "rings": ["Air", "Water"]
+                }
+              },
+              "Crane": {
+                "Asahina": {
+                  "rings": ["Water", "Void"]
+                },
+                "Doji": {
+                  "rings": ["Air", "Water"]
+                },
+                "Daidoji": {
+                  "rings": ["Earth", "Water"]
+                },
+                "Kakita": {
+                  "rings": ["Air", "Fire"]
+                }
+              }
+            }
+          }
         }
       ]
     }
