@@ -45,7 +45,6 @@
       ],
       "characterCreation": [
         {
-          "questions": ["What Clan Does Your Character Belong To?", ""],
           "clans": [
             {
               "clanName": "Crab",
@@ -113,8 +112,6 @@
                 {
                   "clanName": "Crab",
                   "familyName": "Hida",
-                  "ring1": "+1 Earth",
-                  "ring2": "+1 Fire",
                   "skill1": "+1 Command",
                   "skill2": "+1 Tactics",
                   "glory": 44,
@@ -175,8 +172,6 @@
                 {
                   "clanName": "Crane",
                   "familyName": "Asahina",
-                  "ring1": "+1 Water",
-                  "ring2": "+1 Void",
                   "skill1": "+1 Aesthetics",
                   "skill2": "+1 Theology",
                   "glory": 40,
@@ -187,8 +182,6 @@
                 {
                   "clanName": "Crane",
                   "familyName": "Doji",
-                  "ring1": "+1 Air",
-                  "ring2": "+1 Water",
                   "skill1": "+1 Courtesy",
                   "skill2": "+1 Design",
                   "glory": 44,
@@ -199,8 +192,6 @@
                 {
                   "clanName": "Crane",
                   "familyName": "Daidoji",
-                  "ring1": "+1 Earth",
-                  "ring2": "+1 Water",
                   "skill1": "+1 Fitness",
                   "skill2": "+1 Tactics",
                   "glory": 40,
@@ -211,14 +202,85 @@
                 {
                   "clanName": "Crane",
                   "familyName": "Kakita",
-                  "ring1": "+1 Air",
-                  "ring2": "+1 Fire",
                   "skill1": "+1 Aesthetics",
                   "skill2": "+1 Meditation",
                   "glory": 40,
                   "startingWealth": "7 koku",
                   "description": "The Daidoji are practical and hardworking Crane who compose the core of the clan's standing military. Devoted to serving their clan, the Daidoji are its under-appreciated foundation - from the Iron Warriors who comprise the foundation of the Crane Clan's armies, to the Daidoji Trading Council responsible for providing the raw materials and wealth for Crane arts. The selfless efforts of the Daidoji are fundamental to the defense of the Crane and the advancement of its goals.",
                   "color": "#4e8de0"
+                }
+              ],
+              "Dragon": [
+                {
+                  "familyName": "Agasha"
+                },
+                {
+                  "familyName": "Mirumoto"
+                },
+                {
+                  "familyName": "Kitsuki"
+                },
+                {
+                  "familyName": "Togashi"
+                }
+              ],
+              "Lion": [
+                {
+                  "familyName": "Akodo"
+                },
+                {
+                  "familyName": "Kitsu"
+                },
+                {
+                  "familyName": "Ikoma"
+                },
+                {
+                  "familyName": "Matsu"
+                }
+              ],
+              "Phoenix": [
+                {
+                  "familyName": "Asako"
+                },
+                {
+                  "familyName": "Isawa"
+                },
+                {
+                  "familyName": "Kaito"
+                },
+                {
+                  "familyName": "Shiba"
+                }
+              ],
+              "Scorpion": [
+                {
+                  "familyName": "Bayushi"
+                },
+                {
+                  "familyName": "Shosuro"
+                },
+                {
+                  "familyName": "Soshi"
+                },
+                {
+                  "familyName": "Yogo"
+                }
+              ],
+              "Unicorn": [
+                {
+                  "familyName": "Ide"
+                },
+                {
+                  "familyName": "Iuchi"
+                },
+                {
+                  "familyName": "Moto"
+                },
+                {
+                  "familyName": "Shinjo"
+                },
+                {
+                  "familyName": "Utaku"
                 }
               ]
             }
@@ -255,8 +317,248 @@
                 "Kakita": {
                   "rings": ["Air", "Fire"]
                 }
+              },
+              "Dragon": {
+                "Agasha": {
+                  "rings": ["Fire", "Void"]
+                },
+                "Mirumoto": {
+                  "rings": ["Earth", "Water"]
+                },
+                "Kitsuki": {
+                  "rings": ["Air", "Water"]
+                },
+                "Togashi": {
+                  "rings": ["Earth", "Void"]
+                }
+              },
+              "Lion": {
+                "Akodo": {
+                  "rings": ["Air", "Earth"]
+                },
+                "Kitsu": {
+                  "rings": ["Void", "Water"]
+                },
+                "Ikoma": {
+                  "rings": ["Air", "Water"]
+                },
+                "Matsu": {
+                  "rings": ["Earth", "Fire"]
+                }
+              },
+              "Phoenix": {
+                "Asako": {
+                  "rings": ["Air", "Fire"]
+                },
+                "Isawa": {
+                  "rings": ["Fire", "Void"]
+                },
+                "Kaito": {
+                  "rings": ["Air", "Void"]
+                },
+                "Shiba": {
+                  "rings": ["Earth", "Water"]
+                }
+              },
+              "Scorpion": {
+                "Bayushi": {
+                  "rings": ["Air", "Fire"]
+                },
+                "Soshi": {
+                  "rings": ["Air", "Void"]
+                },
+                "Shosuro": {
+                  "rings": ["Air", "Water"]
+                },
+                "Yogo": {
+                  "rings": ["Earth", "Void"]
+                }
+              },
+              "Unicorn": {
+                "Ide": {
+                  "rings": ["Earth", "Water"]
+                },
+                "Iuchi": {
+                  "rings": ["Air", "Void"]
+                },
+                "Moto": {
+                  "rings": ["Earth", "Fire"]
+                },
+                "Shinjo": {
+                  "rings": ["Fire", "Water"]
+                },
+                "Utaku": {
+                  "rings": ["Earth", "Fire"]
+                }
               }
             }
+          },
+          "Schools": {
+            "": [],
+            "Crab": [
+              {
+                "schoolName": "Hida Defender School [Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "Producing the most stalwart protectors of Rokugan against the horrors that mass beyond the Kaiu Wall, the Hida Defender School teaches its disciples fortitude, courage, and practicality in equal measure. Goblins, demons, and the unliving are not honorable foes, and Hida Defenders cannot afford to behave as though the fight against these creatures is fair. While any warrior with a strong will can attempt to slay a stone-skinned oni or die in the attempt, the Hida Defenders know their duty is to endure. From their heavily plated armor to their techniques for shattering iron hides with mighty hammer blows, Hida Defenders have developed an armory and fighting style that gives them the utmost advantage and greatest chance of not just victory, but survival."
+              },
+              {
+                "schoolName": "Hiruma Scout School [Bushi, Shinobi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Kaiu Engineer School [Artisan, Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Kuni Purifier School [Shugenja, Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Yasuki Merchant School [Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              }
+            ],
+            "Crane": [
+              {
+                "schoolName": "Asahina Artificer School [Shugenja, Artisan]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Daidoji Iron Warrior School [Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Doji Diplomat School [Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Kakita Duelist School [Bushi, Artisan]",
+                "rings": ["Air", "Earth"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              }
+            ],
+            "Dragon": [
+              {
+                "schoolName": "Agasha Mystic School [Shugenja]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Kitsuki Investigator School [Courtier, Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Mirumoto Two-Heaven Adept School [Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Togashi Tattooed Order [Monk]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              }
+            ],
+            "Lion": [
+              {
+                "schoolName": "Akodo Commander School [Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Ikoma Bard School [Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Kitsu Medium School [Shugenja]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Matsu Berserker School [Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              }
+            ],
+            "Phoenix": [
+              {
+                "schoolName": "Asoko Loremaster School [Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Isawa Elementalist School [Shugenja]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Shiba Guardian School [Bushi, Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Kaito Shrine Keeper School [Monk]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              }
+            ],
+            "Scorpion": [
+              {
+                "schoolName": "Bayushi Manipulator School [Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Shosuro Infiltrator School [Shinobi, Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Soshi Illusionist School [Shugenja, Courtier, Shinobi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "yugo Wardmaster School [Shugenja]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              }
+            ],
+            "Unicorn": [
+              {
+                "schoolName": "Ide Trader School [Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Iuchi Meishodo Master School [Shugenja, Artisan]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Moto Conqueror School [Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Shinjo Outrider School [Bushi, Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              },
+              {
+                "schoolName": "Utaku Battle Maiden School [Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran."
+              }
+            ]
           }
         }
       ]

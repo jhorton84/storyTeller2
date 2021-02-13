@@ -1,9 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 function Family({families, clan, family, setFamily, characterCreation, setFamilyRing, toggle, updateFamilyRing, familyRing}) {
-  console.log('family', family);
-  console.log('toggle.clan', toggle.clan);
-  
   return (
     <div className={!toggle.clan ? 'hidden' : 'family question-container'}>
       <div>
@@ -11,7 +8,7 @@ function Family({families, clan, family, setFamily, characterCreation, setFamily
         <label htmlFor="family">Family</label>
         <select name="family" id="family" onChange={e => setFamily(e.target.value)} disabled={toggle.family ? true : false}>
           Family
-          <option key="default">select</option>
+          <option key="default" value="" >select</option>
           {families}
         </select>
         {/* Select for user to select a ring based on chosen family */}
