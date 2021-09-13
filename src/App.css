@@ -16,7 +16,8 @@
   margin: 20px;
 }
 .routes-components {
-  /* display: flex; */
+  display: flex;
+  /* background: purple; */
   /* justify-content: center; */
   /* width: 90vw; */
 }

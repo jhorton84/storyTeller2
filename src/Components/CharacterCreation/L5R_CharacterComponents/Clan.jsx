@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Clan({ clan, setClan, updateClan, characterCreation, toggle }) {
+function Clan({ clan, setClan, updateClan, toggle }) {
   return (
     <div className="Clan question-container">
       <label htmlFor="clan">Select Clan</label>
@@ -17,7 +17,7 @@ function Clan({ clan, setClan, updateClan, characterCreation, toggle }) {
         <option value="Unicorn">Unicorn</option>
       </select>
       <p></p>
-      <button className={toggle.clan ? "hidden" : "next-button"} onClick={() => updateClan(clan)}disabled={!clan ? true : false}>Next</button>
+      <button className={toggle.clan ? "hidden" : "next-button"} onClick={() => updateClan(clan)} disabled={!clan ? true : false} >Next</button>
     </div>
   );
 };

@@ -1,14 +1,16 @@
 const express = require('express');
-const massive = require('massive');
-const bodyParser = require('body-parser');
-const session = require('express-session');
+// const massive = require('massive');
+// const bodyParser = require('body-parser');
+// const session = require('express-session');
 const dotenv = require('dotenv');
 dotenv.config();
 
-
 const app = express();
 
-app.use(bodyParser.json());
+// body-parser is now deprecated.
+// Express can now do what body-parser did with express.json().
+// app.use(bodyParser.json());
+app.use(express.json());
 
 // app.use(session({
 // 	secret: process.env.SESSION_SECRET,
@@ -32,5 +34,5 @@ app.use(bodyParser.json());
 
 const PORT = 4000;
 app.listen(PORT, () => {
-	console.log(`The server is listening on port: ${PORT}`)
+  console.log(`The server is listening on port: ${PORT}`);
 });

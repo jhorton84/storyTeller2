@@ -65,8 +65,9 @@ select {
 }
 
 .CharacterCreation {
-  /* background: orange; */
-  /* width: 100vw; */
+  background: orange;
+  width: 850px;
+  padding: 50px;
 }
 .CharacterCreationL5R {
   /* background: green; */

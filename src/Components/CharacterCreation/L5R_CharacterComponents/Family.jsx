@@ -1,6 +1,16 @@
 import React from 'react';
 
-function Family({families, clan, family, setFamily, characterCreation, setFamilyRing, toggle, updateFamilyRing, familyRing}) {
+function Family({
+  families,
+  clan,
+  family,
+  setFamily,
+  characterCreation,
+  setFamilyRing,
+  toggle,
+  updateFamilyRing, 
+  familyRing
+}) {
   return (
     <div className={!toggle.clan ? 'hidden' : 'family question-container'}>
       <div>
