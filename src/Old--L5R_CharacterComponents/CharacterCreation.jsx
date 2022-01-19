@@ -1,7 +1,7 @@
 import React from 'react';
-import GamesApi from '../../gamesApi/gamesApi.json';
+import GamesApi from '../../../gamesApi/gamesApi.json';
 import CharacterCreationForm from './CharacterCreationForm';
-import CharacterCreationDnD from './CharacterCreationDnD';
+import CharacterCreationDnD from '../DungeonsCreateCharacter/CharacterCreationDnD';
 
 function CharacterCreation(props) {
   //Renders dynamically either the L5R or the DnD character creation components and their various character creation

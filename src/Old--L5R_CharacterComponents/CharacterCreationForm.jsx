@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './characterCreation.css';
-import Rings from './L5R_CharacterComponents/Rings';
-import QuestionInput from './L5R_CharacterComponents/QuestionInput';
+import Rings from './Rings';
+import QuestionInput from './QuestionInput';
 
 function CharacterCreationForm({ characterCreation }) {
   
@@ -135,13 +135,13 @@ function CharacterCreationForm({ characterCreation }) {
     <div>
       <div className='row'>
         <Rings ring={ring} />
-        <div className='characterCreationChoices'>
+        {/* <div className='characterCreationChoices'>
           <p>Clan: {clan}</p>
           <p>Family: {family}</p>
           <p>School: {school}</p>
           <p>Giri: </p>
           <p>Ninjo: </p>
-        </div>
+        </div> */}
       </div>
       <div className='characterCreationChoices'>
         <QuestionInput moduleName={"Clan"} setStateFunction={setClan} stateValueToUpdate={clan} apiObject={characterCreation[0].clans} confirmChoiceFunction={updateClan} toggleValue={toggle.clan} prevQuestion={''} />

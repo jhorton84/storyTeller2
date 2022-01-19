@@ -1,0 +1,94 @@
+.card-container {
+  /* background: yellow; */
+  /* height: 500px; */
+}
+
+.card-container img {
+  height: 50px;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  /* background: blue; */
+}
+
+.tracker {
+  display: flex;
+  flex-direction: row;
+  /* color: white; */
+  /* background: black; */
+}
+
+.tracker-color {
+  color: red;
+  border-bottom: 2px solid red;
+  height: 35px;
+}
+
+.untracked {
+  /* color: white; */
+  height: 35px;
+}
+
+.left-align {
+  align-items: flex-start;
+  text-align: left;
+  /* background: cyan; */
+}
+
+.checklist {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.checklist input {
+  /* background: blue; */
+  margin-right: 15px;
+}
+
+.journey-button {
+  display: flex;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+}
+
+.journey-button button {
+  width: 100px;
+  height: 30px;
+  position: relative;
+  bottom: -50px;
+}
+
+.carousel {
+  text-align: justify;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: space-between;
+  height: 450px;
+  /* background: red; */
+}
+
+.carousel-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-buttons button {
+  height: 30px;
+  width: 100px;
+  position: relative;
+  margin: 0 5px 0 5px;
+  /* bottom: -20px; */
+};
+
+.card-image {
+  max-width: 50px;
+};

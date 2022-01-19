@@ -1,0 +1,42 @@
+.main-component {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+  background: green;
+}
+
+.main1 {
+  width: 90%;
+  height: 90%;
+  background: whitesmoke;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  background: white;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 400px;
+  text-align: left;
+}
+
+p {
+  padding: 0 25px 0 25px;
+}
+
+

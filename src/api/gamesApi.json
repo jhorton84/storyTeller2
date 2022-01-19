@@ -1,0 +1,986 @@
+{
+  "game": {
+    "DnD": {
+      "campaigns": [
+        {
+          "campaign": {
+            "title": "The Hoard of the Dragon Queen",
+            "difficulty": "beginner",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/81L0frikxhL.jpg",
+            "description": "The Cult of the Dragon leads the charge in an unholy crusade to bring Tiamat back to the Realms, and the situation grows more perilous for good people with each passing moment. The battle becomes increasingly political as opportunities to gather allies and gain advantage present themselves. From Waterdeep to the Sea of Moving Ice to Thay, it is a race against Evil. Succeed or succumb to the oppression of draconic tyranny. Win or lose, things will never be the same again."
+          }
+        },
+        {
+          "campaign": {
+            "title": "The Rise of Tiamat",
+            "difficulty": "intermediate",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91mv3QQMNSL.jpg"
+          }
+        }
+      ]
+    },
+    "L5R": {
+      "campaigns": [
+        {
+          "campaign": {
+            "title": "Topaz Championship",
+            "difficulty": "beginner",
+            "image": "https://pbs.twimg.com/media/EN_59JVWsAAGtpC.jpg",
+            "description": "The recent, untimely, and mysterious death of the Emerald Champion, Doji Satsume of the Crane Clan, has thrown the Emerald Empire into turmoil. Each of the Great Clans suspiciously eyes the others and wonders whether the death was no tragic accident, but a dishonorable act of murder. In these times of strife, a group of youths approaches the village of Tsuma for the Topaz Championship and their gempuku, the coming-of-age ceremony that will mark them as fully fledged samurai. Each contestant has come from a different clan and dreams of being the highest-scoring contestant in the tournament, earning the title of Topaz Champion. Despite being pitted against one another, they are all united in their desire to succeed and bring honor to their clan and family."
+          }
+        },
+        {
+          "campaign": {
+            "title": "Winter's Embrace",
+            "difficulty": "intermediate",
+            "image": "https://cdn.shoplightspeed.com/shops/638935/files/25149467/262x276x2/fantasy-flight-games-legend-of-the-five-rings-5e-w.jpg",
+            "description": "Being invited to the Emperor’s Winter Court is daunting enough, but an invitation to tea with the legendary member of the Crane Clan thrusts you into the thick of a devious scheme. Your group is tasked with uncovering the truth behind how a dangerous band of scoundrels from the Mantis Clan secured a coveted invitation to the event, and, more importantly, what plots do they hope to accomplish while they are here."
+          }
+        }
+      ],
+      "characterCreation": [
+        {
+          "clans": [
+            {
+              "name": "Crab",
+              "ring": "+1 Earth",
+              "skill": "+1 Fitness",
+              "status": 30,
+              "color": "darkblue",
+              "description": "At the southern border of Rokugan stands a grim miracle: the Kaiu Wall, stretching like a great puckered scar along the landscape, its slate-gray blocks fittted together seamlessly into a structure thirty feet thick and a hundred feet tall. To the south loom the blighted Shadowlands, the domain of the corrupted armies of Jigoku, and to the north lie the lands of the Crab Clan, the Wall's crafters and defenders. The Crab Clan are known as guardians and warriors - slayers of monsters and protectors of the realm. Even those who do not fight with weapons often wage war with their minds and words, securing key supplies for ther clan, maintaining alliances to guarantee support of the Wall, or engineering new technologies to turn back the endless hores of the Shadowlands. However, the Crab Clan's task often weighs heavily upon the disciples of the Kami Hida. They aare known as taciturn, battle weary, or even disillusioned. The glories of the battlefield are scant reward, and surviving to fight another day can seem itts own punishment at times when facing such a relentless threat. Still, these people find ways to live and express themselves, and many revel in the small joys that life provides them.",
+              "bushidoTenet": "Courage is the greatest virtue in Crab lands, for the Kami Hida placed an especially grave task on the shoulders of his descendants. The Crab safeguard the most perilous border of the Emerald Empire, warding it against the terrible hordes of Fu Leng. The consequences of failure are obvious and dreadful to contemplate. Rough and warlike, the Crab have never truly adopted the strict social refinement the other clans have come to demand of their constituents, and so Courtesy is defined somewhat more loosely for the Crab.",
+              "image": "https://images-cdn.fantasyflightgames.com/filer_public/ca/89/ca89e75e-6853-4f40-9ed1-e7e656e75f01/crab.png"
+            },
+            {
+              "name": "Crane",
+              "ring": "+1 Air",
+              "skill": "+1 Culture",
+              "status": 35,
+              "description": "At the dawn of the Empire, after the Kami had fallen from the Celestial Heavens, they found themselves plunged into a mortal world rife with cruelty and war. The Kami Doji - sister of Hantei, the first Emperor - resolved to bring order to this savage realm. The embodiment of elegance and grace, Doji walked among the earthly peoples, calming them in the way fair weather calms a storm-tossed sea. Any Crane will gladly speak of how from her, humans learned writing so they could record their achievements, politics to govern their affairs, economics and commerce to manage their wealth, and art and culture to lift them from their lives of misery. Those she touched the most became her devoted followers, the first samurai of the cran Clan. Since thatt time, the Crane have become both the poets and the poetry of the Empire, at once the swordsmiths and the duelistts wielding the smiths' blades. In every aspect of their lives, the Crane strive for masttery in all things, an ideal that the other clans can only hope to emulate. The Crane Clan represents the pinnacle of refinement in Rokugan, and its members are known for their elegance, grace, and mastery of social customs. The Crane have become both the poets and the poetry of the Empire, at once the swordsmiths and the duelists wielding the smiths' blades. In every aspect of their lives, the Crane strive for mastery in all things. Courtesy is of deep importance to Crane characters while courage in excess is considered to lead to foolhardiness.",
+              "bushidoTenet": "Courtesy is of deep importance to you, as your clan's political power rests upon propriety and the idea of others respecting their proper place - and your own. While many members of the Crane Clan are deeply brave, Courage in excess can lead to foolhardiness. COol heads must prevail, and sometimes that means avoiding a fight altogether.",
+              "color": "#4e8de0",
+              "image": "https://images-cdn.fantasyflightgames.com/filer_public/15/4f/154f4145-083e-4261-b6db-04205116f159/crane.png"
+            },
+            {
+              "name": "Dragon",
+              "ring": "+1 Fire",
+              "skill": "+1 Meditation",
+              "status": 30,
+              "description": "In an empire that usually prizes conformity and resect for tradition, the Dragon Clan is an enigma. Inspired by their mysterious founder, the Kami Togashi, the Dragon place more emphasis than most of their fellow samurai on the individual search for Enlightenment and expertise. In the centuries since the Kami fell to earth, Togashi's followers have acquired a reputation for strange behavior. Isolated by the mountains of their northern home and entrusted with watching over the Empire, the Draagon rarely participate as actively in politics of the Empire as other clans do - and when they do intervene, it is often for reasons others can only guess at. The secret of the Dragon is that they are guided by their founder's foresight, but even they do not always know what Togashi saw in his visions. Togashi's acolytes aare known for their esoteric practices, innate curiosity, and veritable tradition of disregarding tradition - at least in the eyes of the other clans. People expect them to be insightful and humble, but also unpredictable, individualistic, and even dangerous. They tend to look at problems from unexpected angles, and they seek solutions others might not consider.",
+              "bushidoTenet": "Sincerity - aligning one's words and deeds with one's intentions - is the greatest virtue to the Dragon Clan. In this way, its samurai may remain true to themselves even if they should fail. While members of the Dragon Clan take their obligations seriously, they define Duty and Loyalty somewhat differently than most other samurai. To a Dragon, unquestioning loyalty is not loyalty at all, and Dragon Clan lords have been known to tolerate and even value criticism that others would see as grave insubordination.",
+              "color": "green",
+              "image": "https://images-cdn.fantasyflightgames.com/filer_public/83/c2/83c2dfcb-5315-464c-82bb-b32342c05c90/dragon.png"
+            },
+            {
+              "name": "Lion",
+              "ring": "+1 Water",
+              "skill": "+1 Tactics",
+              "status": 35,
+              "description": "Every samurai who lives in Rokugan measures courage, honor, and duty by the standard set by the Lion Clan. The Lion's military is unrivaled, as there are no sharper tacticians and no larger armies in all of Rokugan. This proud military heritage has earned the Lion Clan a place as the Right Hand of the Emperor, sworn to protect him by serving as his personal guard and his standing army. In light of this duty, fear means nothing to Lion samurai. The threat of death only serves to embolden them and bolster their courage, for there can be no greater end than to perish in honorable combat. As veterans of countless wars, the Lion know that those who attack first shall be victorious. Above all, the lion live, breathe, and die for the Emperor and Rokugan. Perhaps the most well-known battlefield warriors in the Emerald Empire, the samurai of the Lion Clan are famous for their ferocity, loyalty, and courage. People expect members of the Lion Clan to be warlike and aggressive, often forgetting that the Kami Akodo was a master tactician as well, more than capable of learniing from past mistakes and adaptnig new stratagems on the battlefield.",
+              "bushidoTenet": "Honor is at the center of the Lion Clan's view of Bushido, especially in the context of martial virtue. Its samurai learn to be the harshest judges of themselves and their actions, for without honor, the other virtues ring hollow. This emphasis on HOnor colors the clan's perception of Compassion, for only those who comport themselves with Honor are worthy of the Lion Clan's benevolence.",
+              "color": "goldenrod",
+              "image": "https://images-cdn.fantasyflightgames.com/filer_public/2a/d0/2ad0349c-0a07-4fef-bce5-ab9fc8274669/lion.png"
+            },
+            {
+              "name": "Phoenix",
+              "ring": "+1 Void",
+              "skill": "+1 Theology",
+              "status": 30,
+              "description": "The Phoenix is a symbol of contradiction: explosive power and great restraint, vast intelligence and deep humilty, immolating self-sacrifice and glorious rebirth. These entwined virtues illuminate the path of Rokugan's most mystical Great Clan, the keepers of the Tao of Shinsei and caretakers of the Empire's soul. As the scent of incense wafts unseen to all corners of a shrine, so do the Spirit Realms overlap invisibly with the Realm of Mortals. The Phoenix mediate between the worlds, appealing to the very souls of the lands. Mountains collapse at their whispered requests, dry rivers are convinced to flow again, plagues are banished, resltess ghosts are returned to slumber, and crops flourish in prevously barren wastelands. Nevertheless, the Phoenix understand that even the purest wish can have unintended and destructive consequences if the elements are brought out of balance. Although others consider the Phoenix to hesitant in their entreaties to the Kami, few are foolhardy enough to test the Phoenix's dedication to peace and harmony. The kami Shiba and the priest Isawa were very different sorts of leaders, on humble and the other prideful, one calm in his wisdom and the other fierce in his brilliance. As such, people expect members of the Phoenix Clan to be calm, thoughtful, and scholarly - but also passionate, and sometimes even arrogant due tot the vast knowledge their clan maintains. Both Shiba and Isawa were deeply spiritual; this bond has defined the Phoenix Clan since its earliest days, and people still expect members of the Phoenix Clan to be more concerned with cosmic problems than with matters mundane.",
+              "bushidoTenet": "Righteousness drives the samurai of the Phoenix Clan in their pursuits, and they are willing to sacrifice themselves to ensure the right thing is done. They know tthat when samurai do not govern their lands justly, the Heavens themselves will voice their displeasure. At the same time, some truths must not be revealed to the world, and some mysteries are not meant even for the other samurai clans. The Phoneix Clan takes a selective view of Sincerity, certain in their belief that they are the best equipped to protect and wield certain knowledge.",
+              "color": "orange",
+              "image": "https://images-cdn.fantasyflightgames.com/filer_public/ba/83/ba8393c2-f6ba-4049-a0b5-79abd47d0f92/phoenix.png"
+            },
+            {
+              "name": "Scorpion",
+              "ring": "+1 Air",
+              "skill": "+1 Skulduggery",
+              "status": 35,
+              "description": "With six terrible words, the Kami Bayushi set his followers ni the newly founded Scorpion clan on a dark and dangerous path. Enemies loomed beyond Rokugan's borders, but they also lurked within them. Bayushi swore to protect the Empire by any means necessary. WHere the Code of Bushido tied the Emperor's Left and Right Hands - the courtiers of the Crane and the might legions of the Liion - the Emperor's Underhand could sitll reach. To combat the liars, the thieves, and the trators within the Grat Clans, Bayushit's followers would have to lie, steal, and cheat in turn. The weapons of the Scorpion dirtied their hands so that tother's could remain pure. Yet, in spite of - and perhaps because of - the clan's fearsome reputations, there is none more loyal than a Scorpion. In a clan of deceivers and manipulators, trust is a hard-earned treasure to be cherished and guarded. Betrayal is punished with swift retribution, the souls of the treacherous forever bound into the horrific limbo of the place known as Traitor's Grove. Such fierce loyalty is a small consolation, at least, given the dangerous but vital role the Scorpion have played in the Empire from the moment their kami spoke his fateful words: \"I will be your villain, Hantei.\" Bayushi's successors are known for their insidious skill at scheming, but also the potential benefits of partnering with them - for without offering the proper incentives to their allies some of the time, they could never maintain their position as the great schemers of the Empire. People expect members of the Scorpion to be equal parts alluring and treacherous - and loyal only to the Emperor.",
+              "bushidoTenet": "Duty and Loyalty is the core tenet of the Scorpion Clan. They must be prepared to do - and sacrifice - anything and everything in tthe service of the Empire. Honor and Righteousness fall by the way-side for most Scorpion. While they are not wholly unimportant, obsessing over such matters would make many vital tasks impossible.",
+              "color": "darkred",
+              "image": "https://images-cdn.fantasyflightgames.com/filer_public/39/95/3995675b-773a-4455-a69a-28b663d300e7/scorpion.png"
+            },
+            {
+              "name": "Unicorn",
+              "ring": "+1 Water",
+              "skill": "+1 Survival",
+              "status": 30,
+              "description": "A thousand years ago, the Ki-Rin Clan rode out of Rokugan, seeking to discover enemies hiding beyond the Emerald Empire's borders. Their journey was arduous, and they found many strange and powerful threats. In defeating each one, the clan learned, changing its fighting styles, magical practices, and even philosophy. To survive, it was forced to adapt - and overcome. After eight centuries of wandering, the Clan of the Wind returned to the Empire as the Unicorn Clan. They wear fur, speak foreign tongues, and wield strange weapons. Although they still revere the KKami Shinjo, they have drifted far froom the traditions and ways of the Emerald Empire. Shinjo's descendants are known for their skill as riders, skirmishers, and messengers, and many are trained in foreign fighting techniques or schools of philosophy. Peope expect them to be worldly and gregarious, if perhaps a bit rough around the edges in polite Rokugani society, given that many members of the clan spend much of their lives ranging across the wilds in Unicorn lands and beyond.",
+              "bushidoTenet": "Compassion is the most significant tenet of Bushido to tthe Unicorn Clan, for mutual understanding and cooperation was the key to the clan's survival during its long journey across the wider world. On this journey, members of the Unicorn Clan met many people with a wide variety of beliefs, cultures, and values, and they became far more accustomed to coexistence with strange outsiders than are most Great Clan samurai. The Unicorn Clan has had several centuries to acclimate to the Emerald Empire, tto which it has returned, but the customs and culture they adopted during their travels remain a powerful force within the clan. Thtese customs often clash with the Rokugani concepts of Courtesy, and the Unicorn's seeming dismissal of Rokugani politeness is one of the most contentious ways in which Shinjo's clan differs from those of her siblings.",
+              "color": "purple",
+              "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/e0/b5e037b3-68d7-4985-8b97-88940cb1f15c/unicorn.png"
+            }
+          ],
+          "families": [
+            {
+              "Crab": [
+                {
+                  "clanName": "Crab",
+                  "name": "Hida",
+                  "skill1": "+1 Command",
+                  "skill2": "+1 Tactics",
+                  "glory": 44,
+                  "startingWealth": "4 koku",
+                  "description": "The Hida family stands guard against the Shadowlands, its task an eternal vigil to keep the Empire safe from the dark forces of Jigoku. Like the family's founder, the Kami Hida, they are large and strong, tough and enduring, with little patience for the weaknesses of others. Their harsh duty makes the Hida exceedingly pragmatic, with little time for the polite fictions of court. They bitterly bear the mocking condescension concerning their manners and dress from the clans they shield.",
+                  "color": "darkblue",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/ca/89/ca89e75e-6853-4f40-9ed1-e7e656e75f01/crab.png"
+                },
+                {
+                  "clanName": "Crab",
+                  "name": "Hiruma",
+                  "ring1": "+1 Air",
+                  "ring2": "+1 Water",
+                  "skill1": "+1 Skulduggery",
+                  "skill2": "+1 Survival",
+                  "glory": 39,
+                  "startingWealth": "3 koku",
+                  "description": "The Hiruma are the eyes and ears of the Crab beyond the Wall, warning of attacks and staging spoiling raids on the unending hordes, a desperate and unrewarding task.",
+                  "color": "darkblue",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/ca/89/ca89e75e-6853-4f40-9ed1-e7e656e75f01/crab.png"
+                },
+                {
+                  "clanName": "Crab",
+                  "name": "Kaiu",
+                  "ring1": "+1 Earth",
+                  "ring2": "+1 Fire",
+                  "skill1": "+1 Smithing",
+                  "skill2": "+1 Labor",
+                  "glory": 40,
+                  "startingWealth": "5 koku",
+                  "description": "Monuments to the skill of the Kaiu are everywhere in the Crab lands, from the vast Kaiu Wall itself to the armor and weapons used by those who stand guard over it. There are very few problems that the Kaiu will not try to solve with applied engineering",
+                  "color": "darkblue",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/ca/89/ca89e75e-6853-4f40-9ed1-e7e656e75f01/crab.png"
+                },
+                {
+                  "clanName": "Crab",
+                  "name": "Kuni",
+                  "ring1": "+1 Earth",
+                  "ring2": "+1 Void",
+                  "skill1": "+1 Medicine",
+                  "skill2": "+1 Theology",
+                  "glory": 40,
+                  "startingWealth": "4 koku",
+                  "description": "No shugenja family is more feared in the Empire than the Kuni, who root out any sign of corruption. The Kuni use all means at their disposal in their hunt; even Hida samurai sometimes pale at their methods. The Kuni are willing to delve into the secrets of the Shadowlands using study, observation, and even dissection, even though such close contact with its dark creatures risks their very souls.",
+                  "color": "darkblue",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/ca/89/ca89e75e-6853-4f40-9ed1-e7e656e75f01/crab.png"
+                },
+                {
+                  "clanName": "Crab",
+                  "name": "Yasuki",
+                  "ring1": "+1 Air",
+                  "ring2": "+1 Water",
+                  "skill1": "+1 Commerce",
+                  "skill2": "+1 Design",
+                  "glory": 39,
+                  "startingWealth": "10 koku",
+                  "description": "The slim and loquacious Yasuki do not fit the Crab stereotype, but they provide a vital service to their clan all the same. The first masters of markets in the Empire, the Yasuki use the tools of trade and industry to keep the Crab armies well equipped and fed, even if it means the occassional shady deal. The Yasuki trade network extends throughout the Empire; members of this family can be found just about anywhere, looking for the next arrangement.",
+                  "color": "darkblue",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/ca/89/ca89e75e-6853-4f40-9ed1-e7e656e75f01/crab.png"
+                }
+              ],
+              "Crane": [
+                {
+                  "clanName": "Crane",
+                  "name": "Asahina",
+                  "skill1": "+1 Aesthetics",
+                  "skill2": "+1 Theology",
+                  "glory": 40,
+                  "startingWealth": "6 koku",
+                  "description": "The Asahina seek harmony and peace in all things, embodying a philosophy of compassion and pacifism that sets them apart even from their fellow Crane. Through art and prayer, they seek to calm and soothe the world around them and spread peace and accord throughout the Empire. The Asahina know that only through sacrifice can true peace be purchased, and it is a price they will pay to foster a better Empire.",
+                  "color": "#4e8de0",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/15/4f/154f4145-083e-4261-b6db-04205116f159/crane.png"
+                },
+                {
+                  "clanName": "Crane",
+                  "name": "Doji",
+                  "skill1": "+1 Courtesy",
+                  "skill2": "+1 Design",
+                  "glory": 44,
+                  "startingWealth": "8 koku",
+                  "description": "The descendants of the Kami Doji have embodied the courtly arts and refined culture of the Empire since its dawn. No major court is complete without its contingent of Doji spreading art, friendship, and - until very recently - generous gifts. For courtly news and rumor, the Doji communication network is unrivaled. This network aids the Doji in keeping ahead of their rivals as much as their mastery of etiquette and art does. Rare are those who can afford to offend the Doji; rarer still are those who do so more than once.",
+                  "color": "#4e8de0",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/15/4f/154f4145-083e-4261-b6db-04205116f159/crane.png"
+                },
+                {
+                  "clanName": "Crane",
+                  "name": "Daidoji",
+                  "skill1": "+1 Fitness",
+                  "skill2": "+1 Tactics",
+                  "glory": 40,
+                  "startingWealth": "7 koku",
+                  "description": "The Daidoji are practical and hardworking Crane who compose the core of the clan's standing military. Devoted to serving their clan, the Daidoji are its under-appreciated foundation - from the Iron Warriors who comprise the foundation of the Crane Clan's armies, to the Daidoji Trading Council responsible for providing the raw materials and wealth for Crane arts. The selfless efforts of the Daidoji are fundamental to the defense of the Crane and the advancement of its goals.",
+                  "color": "#4e8de0",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/15/4f/154f4145-083e-4261-b6db-04205116f159/crane.png"
+                },
+                {
+                  "clanName": "Crane",
+                  "name": "Kakita",
+                  "skill1": "+1 Aesthetics",
+                  "skill2": "+1 Meditation",
+                  "glory": 40,
+                  "startingWealth": "7 koku",
+                  "description": "The Daidoji are practical and hardworking Crane who compose the core of the clan's standing military. Devoted to serving their clan, the Daidoji are its under-appreciated foundation - from the Iron Warriors who comprise the foundation of the Crane Clan's armies, to the Daidoji Trading Council responsible for providing the raw materials and wealth for Crane arts. The selfless efforts of the Daidoji are fundamental to the defense of the Crane and the advancement of its goals.",
+                  "color": "#4e8de0",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/15/4f/154f4145-083e-4261-b6db-04205116f159/crane.png"
+                }
+              ],
+              "Dragon": [
+                {
+                  "name": "Agasha",
+                  "skill1": "+1 Medicine",
+                  "skill2": "+1 Smithing",
+                  "glory": 40,
+                  "startingWealth": "4 koku",
+                  "description": "The Agasha are ever evolving, like the elements in nature. Although founded by a pacifist, many of their techniques are invaluable in a fight. Once devoted to mysticism, they now combine it with the practical arts. Yet, perhaps change is only to be expected among the families of the Dragon. The Agasha have delved deeply into alchemy, matallurgy, and medicine. They blend the practical effects of chemistry and construction with the mystical effects of calling the spirits. It is a unique approach, and one that leads to the occasional spectacular disaster. Howerver, they are rarely disheartened, as they often learn more from failure than they do from success.",
+                  "color": "#4e8de0",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/83/c2/83c2dfcb-5315-464c-82bb-b32342c05c90/dragon.png"
+                },
+                {
+                  "name": "Mirumoto",
+                  "skill1": "+1 Fitness",
+                  "skill2": "+1 Tactics",
+                  "glory": 44,
+                  "startingWealth": "5 koku",
+                  "description": "The Mirumoto samurai are renowned for their unique two-sword style, called niten or \"Two-Heavens,\" but they are more than mere warriors. The Mirumoto oversee the management and duties of the Dragon Clan, allowing the Togashi monks to pursue their eccentric paths on the way to Enlightenment. This makes the Mirumoto surprisingly practical and down-to-earth, willing to step in and help their region's peasants when needed. As the largest family of their clan, the Mirumoto are the samurai whom most think of when they think of the Dragon, and they are the Dragon most often met outside of their lands.",
+                  "color": "#4e8de0",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/83/c2/83c2dfcb-5315-464c-82bb-b32342c05c90/dragon.png"
+                },
+                {
+                  "name": "Kitsuki",
+                  "skill1": "+1 Government",
+                  "skill2": "+1 Sentiment",
+                  "glory": 44,
+                  "startingWealth": "6 koku",
+                  "description": "As befits the odd nature of their clan, even the courtiers of the Dragon are unusual: the samurai of the Kitsuki family are most well-known for their keen perception and their investigative techniques that rely upon physical evidence. They brinig to the physical world the same attention to detail that the Agasha bring to spiritual matters. A small family, they serve the Empire as magistrates and the Dragon Clan as courtiers. In both roles, their eye for deception and knack for finding the truth serve them well.",
+                  "color": "#4e8de0",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/83/c2/83c2dfcb-5315-464c-82bb-b32342c05c90/dragon.png"
+                },
+                {
+                  "name": "Togashi",
+                  "skill1": "+1 Fitness",
+                  "skill2": "+1 Theology",
+                  "glory": 45,
+                  "startingWealth": "3 koku",
+                  "description": "More a monastic order than a true family, the Togashi Order welcomes anyone willing to embrace their teachings and accomplish the challenges required to join, the first of which is finding one of the Togashi monasteries hidden high in the mountains. In truth, many of those able to find their way to the order were members of the order in a past life, returning to continue thier training and spiritual journey under the guidance of teh Dragon Clan Champion. To the rest of the Empire, the order is known for skill with koan (contemplative riddles) and the martial arts, as well as for the beautiful and mystical tattoos that grant them supernatural abilities.",
+                  "color": "#4e8de0",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/83/c2/83c2dfcb-5315-464c-82bb-b32342c05c90/dragon.png"
+                }
+              ],
+              "Lion": [
+                {
+                  "name": "Akodo",
+                  "skill1": "+1 Command",
+                  "skill2": "+1 Government",
+                  "glory": 44,
+                  "startingWealth": "5 koku",
+                  "description": "The Akodo are the master strategists and tacticians of the Empire; no one understands war better. The Akodo embody the discipline and control of the Lion Clan, always weighing several options in order to strike at the perfect time. They are warrior-scholars seeking to understand war and battle in all its complexity; no partof the martial disciplines is too small for their study and no part too large to evade their understanding. \"No army led by an Akodo has ever known defeat\" is a well-known adage, and no Akodo will allow it to become untrue.",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/2a/d0/2ad0349c-0a07-4fef-bce5-ab9fc8274669/lion.png"
+                },
+                {
+                  "name": "Kitsu",
+                  "skill1": "+1 Meditation",
+                  "skill2": "+1 Theology",
+                  "glory": 40,
+                  "startingWealth": "4 koku",
+                  "description": "All samurai venerate their ancestors, but the Kitsu bloodline, which mingled with otherworldly beings, produces members who can part the veil so to speak with them. The Kitsu are known for being traditional and conservative, even among the Lion. All Kitsu answer to the ancestors. Those without the talent to speak to spirits keep genealogies, tend to the tombs and shrines, and otherwise honor the noble dead.",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/2a/d0/2ad0349c-0a07-4fef-bce5-ab9fc8274669/lion.png"
+                },
+                {
+                  "name": "Ikoma",
+                  "skill1": "+1 Composition",
+                  "skill2": "+1 Performance",
+                  "glory": 40,
+                  "startingWealth": "5 koku",
+                  "description": "The Ikoma are the finest storytellers in the Empire. Their proud voices extol the virtues of Bushido and, thus, the Lion Clan. They serve as the memory not only of the LIon Clan, but the Empires as a whole; no fact is considered historical truth if it is not part of the Ikoma histories. The Ikoma courtiers are the expressive face of the Lion; their bards openly show the emotion the Lion samurai must hide. Boasts, tears, and stories are the tools the Ikoma use to advance the Lion in the courts.",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/2a/d0/2ad0349c-0a07-4fef-bce5-ab9fc8274669/lion.png"
+                },
+                {
+                  "name": "Matsu",
+                  "skill1": "+1 Command",
+                  "skill2": "+1 Fitness",
+                  "glory": 44,
+                  "startingWealth": "5 koku",
+                  "description": "The Matsu are the courageous, implacable heart of the Lion. As the largest family in the Empire, the Matsu fill the ranks of the vast Lion armies. Founded by Lady Matsu, one of the greatest of all samurai in the early Empire, they retain many matriarchal traditions in her honor, including several elite military units that are exclusively female. The Matsu exemplify the harsh militarism of Bushido. Due to their numbers, they are the Lion most well-known in popular culture. Fiery, honorable, unrelenting: while the stereotype of the Lion exaggerates these traits, they are all part of the Matsu character.",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/2a/d0/2ad0349c-0a07-4fef-bce5-ab9fc8274669/lion.png"
+                }
+              ],
+              "Phoenix": [
+                {
+                  "name": "Asako",
+                  "skill1": "+1 Culture",
+                  "skill2": "+1 Sentiment",
+                  "glory": 45,
+                  "startingWealth": "3 koku",
+                  "description": "The Asako are a quiet family, viewed as being content to follow their scholarly and philosophical pursuits while the Isawa drive the goals of the Phoenix. The Asako prize knowledge, but they prize wisdom even more, and they use their studies to advance their spiritual evolution as well as their political agendas. The Asako serve as courtiers for the Phoenix, and they are much in demand as court scholars and tutors across the Empire.",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/ba/83/ba8393c2-f6ba-4049-a0b5-79abd47d0f92/phoenix.png"
+                },
+                {
+                  "name": "Isawa",
+                  "skill1": "+1 Meditation",
+                  "skill2": "+1 Theology",
+                  "glory": 44,
+                  "startingWealth": "5 koku",
+                  "description": "The Elemental Masters who sit on the Council of Five are the true rulers of the Phoenix, and these masters are almost lways drawn from the Isawa. As one of the oldest shugenja families in the Empire, the Isawa have had centuries to learn to commune with the spirits and the most effective ways to requiest their blessings. Some might confuse authority with arrogance, but at heart, they are pious and dutiful, devoted to ensuring harmony and balance.",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/ba/83/ba8393c2-f6ba-4049-a0b5-79abd47d0f92/phoenix.png"
+                },
+                {
+                  "name": "Kaito",
+                  "skill1": "+1 Fitness",
+                  "skill2": "+1 Theology",
+                  "glory": 40,
+                  "startingWealth": "4 koku",
+                  "description": "The small Kaito family has been given the task of safe-guarding the many shrines scattered across the Phoenid holdings, from small altars sheltered by a single tree to massive sanctuaries. To fulfill their responsibilities, the Kaito have mastered the use of charmed arrows and prayers to prrotect the shrines and spiritual foes, and practical archery to fend off more mortal dangers. The Kaito are rarely seen outside the Phoenix lands, as they have so many tasks within, but they occasionally make pilgrimages to visit other shrines.",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/ba/83/ba8393c2-f6ba-4049-a0b5-79abd47d0f92/phoenix.png"
+                },
+                {
+                  "name": "Shiba",
+                  "skill1": "+1 Meditation",
+                  "skill2": "+1 Tactics",
+                  "glory": 40,
+                  "startingWealth": "5 koku",
+                  "description": "The Shiba family descends from the Kami Shiba and provides the Phoenix with a champion, but it bent the knee to the Isawa family early in its history and has dutifully served it ever since. The Shiba focus on keeping the Phoenix Clan safe and rely first and foremost on diplomacy before resorting to force. They are expected to be learned in scholarly ways as well as in the warrior arts, and they understand the shugenja they serve better than do most bushi families.",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/ba/83/ba8393c2-f6ba-4049-a0b5-79abd47d0f92/phoenix.png"
+                }
+              ],
+              "Scorpion": [
+                {
+                  "name": "Bayushi",
+                  "skill1": "+1 Courtesy",
+                  "skill2": "+1 Design",
+                  "glory": 44,
+                  "startingWealth": "8 koku",
+                  "description": "The motto of the Scorpion Clan's primary lineage, \"I can swim,\" comes from the cautionary tale about their treacherous nature. Charming, ruthless, deceitful, and vicious, the Bayushi appear as the villains they claim to be. They are the sinister side of power, using the arts of blackmai, poison, and seduction to control the enemies of the Empire, all while dancing a fine line to avoid falling to true villainy themselves. For the Bayushi, the means are justified by the ends: a stable and prosperous Empire.",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/39/95/3995675b-773a-4455-a69a-28b663d300e7/scorpion.png"
+                },
+                {
+                  "name": "Shosuro",
+                  "skill1": "+1 Courtesy",
+                  "skill2": "+1 Performance",
+                  "glory": 40,
+                  "startingWealth": "6 koku",
+                  "description": "When the Shosuro family is known to outsiders, it is for their acting talent and theatrical skills. Little does the Empire realize how fully the Shosuro embrace their roles; many of the finest Scorpion spies are Shosuro living as other people among the clans. While they are master entertainers, they are often asked to turn their skills in acrobatics, acting, and other arts to darker and bloodier ends for their clan.",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/39/95/3995675b-773a-4455-a69a-28b663d300e7/scorpion.png"
+                },
+                {
+                  "name": "Soshi",
+                  "skill1": "+1 Design",
+                  "skill2": "+1 Theology",
+                  "glory": 40,
+                  "startingWealth": "6 koku",
+                  "description": "The Soshi are often overlooked, and that is how they prefer things to be. They are most effective when unseen, offering up prayers in silence for the Scorpion. The Soshi live for subtlety: the gentle nudge, the whispered word that sets everytihg into motion. Sometimes this comes at a price, however, for their preference for acting at the perfect moment often makes them exeedingly cautions and prone to excessive planning and information gathering.",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/39/95/3995675b-773a-4455-a69a-28b663d300e7/scorpion.png"
+                },
+                {
+                  "name": "Yogo",
+                  "skill1": "+1 Composition",
+                  "skill2": "+1 Theology",
+                  "glory": 39,
+                  "startingWealth": "4 koku",
+                  "description": "The Yogo family is the most unfortunate family in the Empire: each scion of their line is cursed to betray the one they love the most. They try to ignore the curse by burying themselves in their work and devotion to duty above all. To try to lift this curse, they have relentlessly studied prayers of protection and especially wards, through which they have mastered many techniques to identify and fight eveil magic. The Yogo are the most diligent and unappreciated servants of the Scorpion.",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/39/95/3995675b-773a-4455-a69a-28b663d300e7/scorpion.png"
+                }
+              ],
+              "Unicorn": [
+                {
+                  "name": "Ide",
+                  "skill1": "+1 Commerce",
+                  "skill2": "+1 Courtesy",
+                  "glory": 40,
+                  "startingWealth": "9 koku",
+                  "description": "The Ide tirelessly serve as diplomats, couriers, and merchants across Rokugan. While they are Unicorn through and through, the Ide have leanrned to blend their foreign customs with the traditions of the Empire to better treat with their cousins. The Ide work to radiate calm and competence, seeking to build alliances and friendships througout the Empire.",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/e0/b5e037b3-68d7-4985-8b97-88940cb1f15c/unicorn.png"
+                },
+                {
+                  "name": "Iuchi",
+                  "skill1": "+1 Meditation",
+                  "skill2": "+1 Theology",
+                  "glory": 40,
+                  "startingWealth": "6 koku",
+                  "description": "The Iuchi are a priestly family, whose practices stretch back to the time before the Unicorn returned to Rokugan, Iuchi Shugenja practice a unique form of sorcery known as meishodo, the art of using talismans and names to manipulate spirits. Their hhistory makes them more open to exporing different mystical pahts than are those bound by centuries of tradition.",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/e0/b5e037b3-68d7-4985-8b97-88940cb1f15c/unicorn.png"
+                },
+                {
+                  "name": "Moto",
+                  "skill1": "+1 Command",
+                  "skill2": "+1 Survival",
+                  "glory": 40,
+                  "startingWealth": "6 koku",
+                  "description": "The Moto are considered to be the least civilized of the Unicorn families bu the standards of the Empire. From their stocky builds and the heavy beards of their men, to their stylle of dress, the Moto seem foreign and strange to Rokugani samurai. Indeed, the Moto have no use for the soft trappings of what some call civilization; they are nomadic warriors seeking the next battle, and they embrace that harsh life. While their heritage and culture are often questioned in Rokugan, their bravery is not.",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/e0/b5e037b3-68d7-4985-8b97-88940cb1f15c/unicorn.png"
+                },
+                {
+                  "name": "Shinjo",
+                  "skill1": "+1 Sentiment",
+                  "skill2": "+1 Survival",
+                  "glory": 4445,
+                  "startingWealth": "8 koku",
+                  "description": "The Shinjo are the core of the Unicorn, the clan of expolorers who followed their Kami, Shinjo, into the dangerous world beyond the Empire. This love of discovery has not left the Shinjo, and they travel widely when they can. They administrate and lead the Unicorn, working to keep all of the parts of the clan yoked together. Master equestrians and scouts, the Shinjo pursue peace, but never flinch from the prospect of war.",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/e0/b5e037b3-68d7-4985-8b97-88940cb1f15c/unicorn.png"
+                },
+                {
+                  "name": "Utaku",
+                  "skill1": "+1 Survival",
+                  "skill2": "+1 Tactics",
+                  "glory": 44,
+                  "startingWealth": "6 koku",
+                  "description": "No other Unicorn family has so deeply and spiritually embraced Bushido as the Utaku, who embody it in their elite Battle Maidens, the Shiotome. The matriarchal Utaku allow only their women to ride to war, the Utaku men serve afoot as infantry and in the stables and households, making them unusual among their own clan. There is no finer heavy cavalry in the Empire than the Battle Maidnes, and no finer equerries than Utaku men.",
+                  "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/e0/b5e037b3-68d7-4985-8b97-88940cb1f15c/unicorn.png"
+                }
+              ]
+            }
+          ],
+          "schools": {
+            "Crab": [
+              {
+                "name": "Hida Defender School [Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "Producing the most stalwart protectors of Rokugan against the horrors that mass beyond the Kaiu Wall, the Hida Defender School teaches its disciples fortitude, courage, and practicality in equal measure. Goblins, demons, and the unliving are not honorable foes, and Hida Defenders cannot afford to behave as though the fight against these creatures is fair. While any warrior with a strong will can attempt to slay a stone-skinned oni or die in the attempt, the Hida Defenders know their duty is to endure. From their heavily plated armor to their techniques for shattering iron hides with mighty hammer blows, Hida Defenders have developed an armory and fighting style that gives them the utmost advantage and greatest chance of not just victory, but survival.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/ca/89/ca89e75e-6853-4f40-9ed1-e7e656e75f01/crab.png"
+              },
+              {
+                "name": "Hiruma Scout School [Bushi, Shinobi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shadowlands never sleep and neither can those who watch them. Scouting the Shadowlands is a dangerous task and one that requires intense preparation. The Hiruma saw their lands swallowed by the forces of demons, and they will die before seeing more of the Empire lost beneath their shadow. Trained to observe and get out, only striking when the reward exceeds the risk, samurai of the Hiruma School are about patience and endurance above all. They are masters of survival and mobility. When a Hiruma Scout is rotated out to serve within the borders of the Empire, their haunted look and wary demeanor marks them as a veteran.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/ca/89/ca89e75e-6853-4f40-9ed1-e7e656e75f01/crab.png"
+              },
+              {
+                "name": "Kaiu Engineer School [Artisan, Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "Since the Crab Clan's founding, the Kaiu's duty has been to arm the clan's samurai to defeat their renemies, be it with weapon's, siege engines, or insight. As the inventive arm of the Crab, the Kaiu Engineer supplies all of these things. Trained in logistics, versed in tactics, and filled with ingenuity, the Kaiu dojo is not only a warrrior college, but also the foremost engineering school in the Empirer. It is the Kaiu engineers who support the foot soldiers of the Crab, building bridges over inhospitable terrain, crafting armor strong enough to withstand even an oni's blow, and forging rare Kaiu blades, which are among the greatest swords in the Empire. If the situation is bleak, and there is no clear path to victory, then the Kaiu Engineer will forge one!",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/ca/89/ca89e75e-6853-4f40-9ed1-e7e656e75f01/crab.png"
+              },
+              {
+                "name": "Kuni Purifier School [Shugenja, Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Kuni Purifiers master knowledge and prayers to deny the Shadowlands forces any foothold inside the Empire. To this end, they have specialized in invocations to the earth kami to strike down or banish the evil servants of Fu Leng. From the time of their school's founding, the Kuni Purifiers have sought to understand the nature of the threat the Crab fight against. This has led them down dangerous paths, and no small number have fallen to the very corruption they study. The Kuni Purifiers paint their faces in stylized Kabuki-like patterns to protect their true identities from the insidious tendrils of the Shadowlands. Eternal vigilance, shading into unending paranoia, is the lot of the Kuni Purifiers.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/ca/89/ca89e75e-6853-4f40-9ed1-e7e656e75f01/crab.png"
+              },
+              {
+                "name": "Yasuki Merchant School [Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "Enemies of the Crab say the Yasuki are little more than merchants - the Yasuki would counter that they are much more. They are masters of the arts of commerce and the flow of commodities, considered an uncouth and deplorable set of skills in Rokugan. The Yasuki can acquire goods and services, even ones that a person may not yet know they need, in exchange for promises of assistance for their family and clan in the future. The Yasuki always keep their bargains, and they ensure that their partners do the same.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/ca/89/ca89e75e-6853-4f40-9ed1-e7e656e75f01/crab.png"
+              },
+              {
+                "name": "Worldly Ronin Path [Bushi, Courtier]",
+                "rings": ["+ 2 any"],
+                "description": "Individuals may come to walk the ronin's path for many reasons. These \"wave men\" adrift upon the sea of fate may be former clan samurai fallen from grace, unlucky samurai whose master was killed or demoted, or even children born to samurai parents out of wedlock or under other contentious circumstances. Many do not have a formal sensei anymore - if they ever did - and so the world itself is their teacher. As they must adapt to survive, many ronin rely on a particular skill to make their way in the world, whether that be as mercenaries, as traveling merchants or performers, or as guides or guardians for specific roads, rivers, or mountain passes."
+              }
+            ],
+            "Crane": [
+              {
+                "name": "Asahina Artificer School [Shugenja, Artisan]",
+                "rings": ["Earth", "Fire"],
+                "description": "Art and religion intertwine for the Asahina, for to them, faith, beauty, and peace are all aspects of the same philosophy and try to improve the harmony in the Empire. Their focus on the creation of beautiful things is simply another aspect of their attempt to spread art and peace throughout Rokugan. Many a conflict has been defused by an Asahina religious ritual that presented a peaceful path forward. The Asahina do their utmost to live their pacifistic ideals in a world fraught with conflict. It is arduous, but they persevere, secure in their beliefs.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/15/4f/154f4145-083e-4261-b6db-04205116f159/crane.png"
+              },
+              {
+                "name": "Daidoji Iron Warrior School [Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The warriors from the Daidoji dojo form the core of their clan's small standing army. They are highly trained heavy infantry who can hold the line and delay the advance of any foe. Many enemies have broken on the unwavering spears and iron discipline of the Daidoji Iron Warriors. When there are no wars to fight, many are assigned as protectors of Crane casltes or as yojimbo (bodyguards) to traveling Crane courtiers. Their watchfulness and solidarity have prevented countless heated moments from getting out of hand, though it is said that most Daidoji prefer the honesty of the battlefield.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/15/4f/154f4145-083e-4261-b6db-04205116f159/crane.png"
+              },
+              {
+                "name": "Doji Diplomat School [Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "No one plays the game of court better than thte Crane - after all, their clan wrote the rules. The Doji Diplomats choreograph the courtly dance of favors exchanged, gifts given, and the right people invited to private gatherings. The Doji are always on the leading edge of fashion and culture, and Doji Diplomats need never use an unkind word: their silience speaks volumes, and a simple gesture says even more. Their networks of favors, gifts, and invitations allow them to weigh the ebb and flow of the social side of the Empire and adjust the scales to their benefit.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/15/4f/154f4145-083e-4261-b6db-04205116f159/crane.png"
+              },
+              {
+                "name": "Kakita Duelist School [Bushi, Artisan]",
+                "rings": ["Air", "Earth"],
+                "description": "The Kakita Duelist School emphasizes \"one strike, one killl,\" seeking for its students to master the one perfect strike performed in an iajutsu duel. For the Kakita Duelisst, such is thte pinnacle of all martial skills. While other martial skills are not neglected, neither are they the focus of the Kakita Dueling Academy in Tsuma. Although some might critique such single-minded dedication, the Kakita Duelists are the best in the Empire. Their skill with the katana in this arena complememnts the Doji mastery of the court, and reinforces the Crane hold on the political flow of the Empire.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/15/4f/154f4145-083e-4261-b6db-04205116f159/crane.png"
+              },
+              {
+                "name": "Worldly Ronin Path [Bushi, Courtier]",
+                "rings": ["+ 2 any"],
+                "description": "Individuals may come to walk the ronin's path for many reasons. These \"wave men\" adrift upon the sea of fate may be former clan samurai fallen from grace, unlucky samurai whose master was killed or demoted, or even children born to samurai parents out of wedlock or under other contentious circumstances. Many do not have a formal sensei anymore - if they ever did - and so the world itself is their teacher. As they must adapt to survive, many ronin rely on a particular skill to make their way in the world, whether that be as mercenaries, as traveling merchants or performers, or as guides or guardians for specific roads, rivers, or mountain passes."
+              }
+            ],
+            "Dragon": [
+              {
+                "name": "Agasha Mystic School [Shugenja]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Agasha Mystics mix practical arts with their invocations, using alchemical items and metallurgy as foci for their mystical arts. Through this, they have learned that all of the Elements are linked, and there is great power to be found in the changing of their states. They make cchemical mixtures that enhance or are enhanced by their magic, which are used for everything from simple entertainment to warfare. The Agasha weave their prayerss into every item they create, from swordxs to medicine, seeking to push the limits of their understanding. Agasha Mystics are used to venturing out into the world, looking for inspiration from nature in all its multitude of forms.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/83/c2/83c2dfcb-5315-464c-82bb-b32342c05c90/dragon.png"
+              },
+              {
+                "name": "Kitsuki Investigator School [Courtier, Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Kitsuki Investigator School is a recent school, founded when Agasha Kitsuki saved the life of the Mirumoto daimyo by use of evidence. The Kitsuki Investigators use their methods of observation, expermientation, logic, and reason to understand the truth, which puts them outside the norm of the Rokugani testimony-based judiciary system. The Kitsuki Investigators gravitate toward legal work as magistrates and Justiciars, in addition to serving as courtiers and representatives of the Dragon Clan.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/83/c2/83c2dfcb-5315-464c-82bb-b32342c05c90/dragon.png"
+              },
+              {
+                "name": "Mirumoto Two-Heaven Adept School [Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Mirumoto dojo's unique two-sword style, niten (or Two-Heavens), is only one component of their mastery of swords and combat. Its students follow the Tao of Shinsei and use it to guide them in war and peace, seeking to apply its practical lessons to all things. Like all of the Dragon, they are used to physical hardship and can persevere under great stress.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/83/c2/83c2dfcb-5315-464c-82bb-b32342c05c90/dragon.png"
+              },
+              {
+                "name": "Togashi Tattooed Order [Monk]",
+                "rings": ["Earth", "Fire"],
+                "description": "The monks of thte Togashi Order have dedicated tthemselves to discovering and fulfilling their soul's destiny, believing that to be their individual path to achieving Enlightenment. They are aided in this by the prophetic visions of their leader, the Dragon Clan Champion, as well as the mystic tattoos that bind them to their order; the Tattoos' artistry is matched only by their unusual powerss. Only those who become true ise zumi know tha the tattoos' power flows from the blood of Togashi, the Dragon Clan Kami, which is mixed into the tatooing inks.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/83/c2/83c2dfcb-5315-464c-82bb-b32342c05c90/dragon.png"
+              },
+              {
+                "name": "Worldly Ronin Path [Bushi, Courtier]",
+                "rings": ["+ 2 any"],
+                "description": "Individuals may come to walk the ronin's path for many reasons. These \"wave men\" adrift upon the sea of fate may be former clan samurai fallen from grace, unlucky samurai whose master was killed or demoted, or even children born to samurai parents out of wedlock or under other contentious circumstances. Many do not have a formal sensei anymore - if they ever did - and so the world itself is their teacher. As they must adapt to survive, many ronin rely on a particular skill to make their way in the world, whether that be as mercenaries, as traveling merchants or performers, or as guides or guardians for specific roads, rivers, or mountain passes."
+              }
+            ],
+            "Lion": [
+              {
+                "name": "Akodo Commander School [Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Akodo War College's curriculum is focused on control: of one's weapons, of the battlefield, over tthe flow of conflict, and ultimately, over oneself. Its students study the advice of Akodo's Leadership, which was written by the Lion Clan Kami himself. In addition to training as warriors, Akodo Commanders are educated to be battlefield leaders. They often treatt war as a game of Go, strike precisely and without hesitation with sword and army alike. Their goal is the pinnacle of the art of ward: to minimize losses while achieving their objectives.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/2a/d0/2ad0349c-0a07-4fef-bce5-ab9fc8274669/lion.png"
+              },
+              {
+                "name": "Ikoma Bard School [Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "In the end - after trials, sacrifices, and death - all that truly remains of a samurai is their story. The Ikoma Bard School trains its students as hisorians, bards, and tale-spinners; not just to preserve the stories of old, but to inspire hte warriors of the Lion Clan to equal and exceed tthe achievments of their ancientt ancestors. Ikoma Bards are no less warlike than the other scions of the Lion Clan. However, their most important duty lies in supporting each Lion's drive to seize glory no matter the danger - and to fight against the odds with the confidence that no hero will die unsung.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/2a/d0/2ad0349c-0a07-4fef-bce5-ab9fc8274669/lion.png"
+              },
+              {
+                "name": "Kitsu Medium School [Shugenja]",
+                "rings": ["Earth", "Fire"],
+                "description": "The smallest of the shugenja schools of the Great Clans, the Kitsu Medium School maintains an esoteric focus on the ancestors, which requires unique training and at least a trace of the original Kitsu bloodline. This mystical connection to their forebears allows them to perform magic that no other can. The Kitsu Mediums are the living bridge between the Lion Clan's past and the present, acting as the voice of the ancestors in the present day. As traditionalists, they use the ancesstral names for prayers to honor those who first mastered them.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/2a/d0/2ad0349c-0a07-4fef-bce5-ab9fc8274669/lion.png"
+              },
+              {
+                "name": "Matsu Berserker School [Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Matsu's soldiers are the front line and main strength of the Lion armies. Their bravery and zeal for battle are unquestioned. The Matsu warrior dojo teaches the primacy of offense and the necessity of seizing the initiative in all things. Aggression is the hallmark of the Matsu style; direct action is their watchword. This bellicose attitude often pust them at odds with tthe careful strategies of the Akodo, but the Mattsu serve the ion and the Empire with unquestioned loyalty.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/2a/d0/2ad0349c-0a07-4fef-bce5-ab9fc8274669/lion.png"
+              },
+              {
+                "name": "Worldly Ronin Path [Bushi, Courtier]",
+                "rings": ["+ 2 any"],
+                "description": "Individuals may come to walk the ronin's path for many reasons. These \"wave men\" adrift upon the sea of fate may be former clan samurai fallen from grace, unlucky samurai whose master was killed or demoted, or even children born to samurai parents out of wedlock or under other contentious circumstances. Many do not have a formal sensei anymore - if they ever did - and so the world itself is their teacher. As they must adapt to survive, many ronin rely on a particular skill to make their way in the world, whether that be as mercenaries, as traveling merchants or performers, or as guides or guardians for specific roads, rivers, or mountain passes."
+              }
+            ],
+            "Phoenix": [
+              {
+                "name": "Asoko Loremaster School [Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Asako Loremasters study widely, and from that broad and firm base, they develop their specialties. It is rare for a Loremaster not to have at least passing knowledge of a subject, no matter how obscure. Acting as the courtiers of the Phoenix, the Asako Loremasters marshal argumentts based on their expertises in tthe revered knowledge of the past. One should look for an Asako first in the library and then in the court, usually deep in discussion. Few care to challenge an Asako Loremaster in discussion. Few care to challenge and Asako Loremaster on the field of knowledge, but such disputations are often one of the highlights of court.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/ba/83/ba8393c2-f6ba-4049-a0b5-79abd47d0f92/phoenix.png"
+              },
+              {
+                "name": "Isawa Elementalist School [Shugenja]",
+                "rings": ["Earth", "Fire"],
+                "description": "No tradition has a more complete mastery of the way of the spirits than that of the Isawa Elementalist School. Since the time before teh Kami fell to earth, the priests of the Isawa have sought knowledge and understanding of the kami, the Fortunes, and the very elements themselves. Over the centuries, they have perfected the rituals and supplications to request great boons on behalf of the Phoenix Clan and terrible banes for casting down their enemies. Yet, they know that the spiritst require service in exchange for their blessings, making the Isawa Elementalists hesitant to call upon the kami except in times of great need. to do so without cause is to risk upsetting the delicate balance of the natural world - tto bring the wrath of the spirits upon them.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/ba/83/ba8393c2-f6ba-4049-a0b5-79abd47d0f92/phoenix.png"
+              },
+              {
+                "name": "Shiba Guardian School [Bushi, Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "As Shiba swore to protect Isawa, so tthe Shiba Guardian school emphasizes the defense of and cooperation with the Isawa; its members complement and protect priesttts, shrine keepers, and shugenja. The Shiba Guardians are broadly trained, often as much scholars as warriors, and they approach conflict as a problem to be solved without bloodshed if possible. Those who underestimate them due to their reluctance tto take a life usually only do so once: the Shiba Guardians are as devoted ot the perfection of the martial arts as any samurai. Their commitment to theological sttudy and long hours of meditation have taught the Shiba Guardians how to dance in harmony with elemental kami called forth by the invocations of the shugenja.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/ba/83/ba8393c2-f6ba-4049-a0b5-79abd47d0f92/phoenix.png"
+              },
+              {
+                "name": "Kaito Shrine Keeper School [Monk]",
+                "rings": ["Earth", "Fire"],
+                "description": "Kaito Shrine Keepers work alongside priests to protect temples across Phoenix lands, or keep smaller shrines on their own. The Kaito learn mystical arts to propitiate the kami - sometimes even serving as vessels for them - and practical ones to maintain the shrines. Shrine Keepers make use of protective magic - such as ofuda, paper charms - and spiritually enhanced archery to defend shrines against threats both mystical and mundane.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/ba/83/ba8393c2-f6ba-4049-a0b5-79abd47d0f92/phoenix.png"
+              },
+              {
+                "name": "Worldly Ronin Path [Bushi, Courtier]",
+                "rings": ["+ 2 any"],
+                "description": "Individuals may come to walk the ronin's path for many reasons. These \"wave men\" adrift upon the sea of fate may be former clan samurai fallen from grace, unlucky samurai whose master was killed or demoted, or even children born to samurai parents out of wedlock or under other contentious circumstances. Many do not have a formal sensei anymore - if they ever did - and so the world itself is their teacher. As they must adapt to survive, many ronin rely on a particular skill to make their way in the world, whether that be as mercenaries, as traveling merchants or performers, or as guides or guardians for specific roads, rivers, or mountain passes."
+              }
+            ],
+            "Scorpion": [
+              {
+                "name": "Bayushi Manipulator School [Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "Through the adept use of deception, temptation, and espionage, Bayushi-trained courtiers are teh masters of finding and exploiting the weaknesses of others. No metthod is too dishonerable as long as its effective and untraceable. Tthe Bayushi Manipulators are the shadow to the Doji Diplomats' light, and they are justtly feared by all. Yet, no court is complete without its Scorpion scoundrel. The Bayushi Manipulators accept their roles as villains in the play tthat is Rokugan, and in doing so, they help ensure that no true villains rise to threaten the Emperor.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/39/95/3995675b-773a-4455-a69a-28b663d300e7/scorpion.png"
+              },
+              {
+                "name": "Shosuro Infiltrator School [Shinobi, Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Shosuro infiltrators have perfected the art of deception. With their well-honed abilities in acrobatics, disguise, and stealth, these Scorpion agents encounter very few places to which they cannot gain access. As agents of surprise and disruption they do not stand and fight, but instead sow chaos and vanish - usually to disguise what their mission actually was. Many a yojimbo has thwarted an apparent assassination attempt that was merely a distraction from the target the Shosuro Infiltrators truly sought. Such infiltrators can vanish into shadows or, with equal skill, mingle with peasants to become invisible to the eye of samurai.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/39/95/3995675b-773a-4455-a69a-28b663d300e7/scorpion.png"
+              },
+              {
+                "name": "Soshi Illusionist School [Shugenja, Courtier, Shinobi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Soshi Illusionist School is the school of whispers and shadows. \"Subtlety\" is the illusionists' watchword as they go about their tasks. Even their religious rituals and duties tend to be understated, though they are no less faithfully executed. When the Scorpion need spiritual aid in court, their subtle invocations and keen understanding of the kami allow them to work their prayers unseen and unheard. The Soshi Illusionists are among the most practical Shugenja in the Empire, preferring discriminating and effective use of invocation over pomp and ceremony.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/39/95/3995675b-773a-4455-a69a-28b663d300e7/scorpion.png"
+              },
+              {
+                "name": "yugo Wardmaster School [Shugenja]",
+                "rings": ["Earth", "Fire"],
+                "description": "Founded by Asako Yogo when he joined the Scorpion clan, the Yogo Wardmaster Dojo is the Empire's foremost school of gyosetsudo, the art of supernatural warding through mystical calligraphy. Entrusted with the protection of the twelve Black Scrolls, the Yogo developed their founder's techniques to prevent the scrolls' detection by dark forces and contain their corrupting power. By inscribing sigils of power onto slips of paper imbued with their ki, masters of this school can erect invisible barriers, bind spirits, and foil incantations. For the Yogo, an ounce of preparations is more than enough.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/39/95/3995675b-773a-4455-a69a-28b663d300e7/scorpion.png"
+              },
+              {
+                "name": "Worldly Ronin Path [Bushi, Courtier]",
+                "rings": ["+ 2 any"],
+                "description": "Individuals may come to walk the ronin's path for many reasons. These \"wave men\" adrift upon the sea of fate may be former clan samurai fallen from grace, unlucky samurai whose master was killed or demoted, or even children born to samurai parents out of wedlock or under other contentious circumstances. Many do not have a formal sensei anymore - if they ever did - and so the world itself is their teacher. As they must adapt to survive, many ronin rely on a particular skill to make their way in the world, whether that be as mercenaries, as traveling merchants or performers, or as guides or guardians for specific roads, rivers, or mountain passes."
+              }
+            ],
+            "Unicorn": [
+              {
+                "name": "Ide Trader School [Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "The ever-friendly face of the Unicorn is the Ide. Ide Traders always attempt to solve propblems with negotiation first and foremost, as they know any business dealings between friends and equals forge bonds as strong as steel. While some of the other clans think of the Ide as soft, none can point to when they were able to take advantage of this perceived weakness. The Ide Traders ignore insults and politely welcome compliments in equal measure. They have a vast knowledge of cultures, both Rokugani and foreign, which allows them to tailor their dealings with precision.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/e0/b5e037b3-68d7-4985-8b97-88940cb1f15c/unicorn.png"
+              },
+              {
+                "name": "Iuchi Meishodo Master School [Shugenja, Artisan]",
+                "rings": ["Earth", "Fire"],
+                "description": "The Unicorn understanding of magic and the spirits has been greatly influenced by their years exploring outside the Empire, and the making of magical talismans remains the focus of their craft, meishodo. The Iuchi Meishodo Masters' magic is unique among Rokugan's shugenja; using words of power taught to them by foreign sorcerers, they bind the spirits into talismans, which can then be gifted to others to use. Their heritage makes the Iuchi one of the most open-minded of the shugenja families.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/e0/b5e037b3-68d7-4985-8b97-88940cb1f15c/unicorn.png"
+              },
+              {
+                "name": "Moto Conqueror School [Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "While most Unicorn dojo focus on swift and complex techniques, the martial style of the Moto Conquerer favors straightforward, unrelenting force. They fight loudly, use sweeping movements, and wielld weapons many Rokugani do not recognize. As a result, few samurai know how to react to the Moto sstyllle, let alone defend against it. Other clans consider teh Moto to be barbarians, and the horde uses this to their advantage. If the Empire will not make an effort to understand the Moto's ways, then hhow can they stand against them?",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/e0/b5e037b3-68d7-4985-8b97-88940cb1f15c/unicorn.png"
+              },
+              {
+                "name": "Shinjo Outrider School [Bushi, Courtier]",
+                "rings": ["Earth", "Fire"],
+                "description": "The core of the Unicorn military, the Shinjo Outriders emphasize speed and flexibility. All Shinjo Outriders learn the art of reconnaissance and how to get the most out of their horses. No samurai is more mobile than a mounted Shinjo Outrider. Their preferred weapon is the Shinjo horsebow, which they use with great accuracy even while riding at a gallop. Trained to live off the land, the Shinjo Outriders thoroughly learn the terrain of each potential battlefield before having to fight over it.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/e0/b5e037b3-68d7-4985-8b97-88940cb1f15c/unicorn.png"
+              },
+              {
+                "name": "Utaku Battle Maiden School [Bushi]",
+                "rings": ["Earth", "Fire"],
+                "description": "The most traditional and presigious of the Unicorn Clan's schools, the Hiotome, or \"Battle Maidens,\" are revered as legendary cavalry. The dojo only accepts women who carry the Utaku name, and even then prospective students must meet stringent standards of prowess and honor. Thtis is the only school in the Empire that tetaches the secrets required tto tame the powerful Utaku steeds, massive warhorses that refuse all other riders. In battle, graceful, continuous movements mark their style, as does their unnerving serenity. Even when charging into the fray, Battle Maidens often move in utter silence.",
+                "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/e0/b5e037b3-68d7-4985-8b97-88940cb1f15c/unicorn.png"
+              },
+              {
+                "name": "Worldly Ronin Path [Bushi, Courtier]",
+                "rings": ["+ 2 any"],
+                "description": "Individuals may come to walk the ronin's path for many reasons. These \"wave men\" adrift upon the sea of fate may be former clan samurai fallen from grace, unlucky samurai whose master was killed or demoted, or even children born to samurai parents out of wedlock or under other contentious circumstances. Many do not have a formal sensei anymore - if they ever did - and so the world itself is their teacher. As they must adapt to survive, many ronin rely on a particular skill to make their way in the world, whether that be as mercenaries, as traveling merchants or performers, or as guides or guardians for specific roads, rivers, or mountain passes."
+              }
+            ]
+          },
+          "ringIncreases": {
+            "Family": {
+              "Crab": {
+                "Hida": {
+                  "rings": [
+                    {
+                      "name": "Earth"
+                    },
+                    {
+                      "name": "Fire"
+                    }
+                  ]
+                },
+                "Hiruma": {
+                  "rings": [
+                    {
+                      "name": "Air"
+                    },
+                    {
+                      "name": "Water"
+                    }
+                  ]
+                },
+                "Kaiu": {
+                  "rings": [
+                    {
+                      "name": "Earth"
+                    },
+                    {
+                      "name": "Fire"
+                    }
+                  ]
+                },
+                "Kuni": {
+                  "rings": [
+                    {
+                      "name": "Earth"
+                    },
+                    {
+                      "name": "Void"
+                    }
+                  ]
+                },
+                "Yasuki": {
+                  "rings": [
+                    {
+                      "name": "Air"
+                    },
+                    {
+                      "name": "Water"
+                    }
+                  ]
+                }
+              },
+              "Crane": {
+                "Asahina": {
+                  "rings": [
+                    {
+                      "name": "Water"
+                    },
+                    {
+                      "name": "Void"
+                    }
+                  ]
+                },
+                "Doji": {
+                  "rings": [
+                    {
+                      "name": "Air"
+                    },
+                    {
+                      "name": "Water"
+                    }
+                  ]
+                },
+                "Daidoji": {
+                  "rings": [
+                    {
+                      "name": "Earth"
+                    },
+                    {
+                      "name": "Water"
+                    }
+                  ]
+                },
+                "Kakita": {
+                  "rings": [
+                    {
+                      "name": "Air"
+                    },
+                    {
+                      "name": "Fire"
+                    }
+                  ]
+                }
+              },
+              "Dragon": {
+                "Agasha": {
+                  "rings": [
+                    {
+                      "name": "Fire"
+                    },
+                    {
+                      "name": "Void"
+                    }
+                  ]
+                },
+                "Mirumoto": {
+                  "rings": [
+                    {
+                      "name": "Earth"
+                    },
+                    {
+                      "name": "Water"
+                    }
+                  ]
+                },
+                "Kitsuki": {
+                  "rings": [
+                    {
+                      "name": "Air"
+                    },
+                    {
+                      "name": "Water"
+                    }
+                  ]
+                },
+                "Togashi": {
+                  "rings": [
+                    {
+                      "name": "Earth"
+                    },
+                    {
+                      "name": "Void"
+                    }
+                  ]
+                }
+              },
+              "Lion": {
+                "Akodo": {
+                  "rings": [
+                    {
+                      "name": "Air"
+                    },
+                    {
+                      "name": "Earth"
+                    }
+                  ]
+                },
+                "Kitsu": {
+                  "rings": [
+                    {
+                      "name": "Void"
+                    },
+                    {
+                      "name": "Water"
+                    }
+                  ]
+                },
+                "Ikoma": {
+                  "rings": [
+                    {
+                      "name": "Air"
+                    },
+                    {
+                      "name": "Water"
+                    }
+                  ]
+                },
+                "Matsu": {
+                  "rings": [
+                    {
+                      "name": "Earth"
+                    },
+                    {
+                      "name": "Fire"
+                    }
+                  ]
+                }
+              },
+              "Phoenix": {
+                "Asako": {
+                  "rings": [
+                    {
+                      "name": "Air"
+                    },
+                    {
+                      "name": "Fire"
+                    }
+                  ]
+                },
+                "Isawa": {
+                  "rings": [
+                    {
+                      "name": "Fire"
+                    },
+                    {
+                      "name": "Void"
+                    }
+                  ]
+                },
+                "Kaito": {
+                  "rings": [
+                    {
+                      "name": "Air"
+                    },
+                    {
+                      "name": "Void"
+                    }
+                  ]
+                },
+                "Shiba": {
+                  "rings": [
+                    {
+                      "name": "Earth"
+                    },
+                    {
+                      "name": "Water"
+                    }
+                  ]
+                }
+              },
+              "Scorpion": {
+                "Bayushi": {
+                  "rings": [
+                    {
+                      "name": "Air"
+                    },
+                    {
+                      "name": "Fire"
+                    }
+                  ]
+                },
+                "Soshi": {
+                  "rings": [
+                    {
+                      "name": "Air"
+                    },
+                    {
+                      "name": "Void"
+                    }
+                  ]
+                },
+                "Shosuro": {
+                  "rings": [
+                    {
+                      "name": "Air"
+                    },
+                    {
+                      "name": "Water"
+                    }
+                  ]
+                },
+                "Yogo": {
+                  "rings": [
+                    {
+                      "name": "Earth"
+                    },
+                    {
+                      "name": "Void"
+                    }
+                  ]
+                }
+              },
+              "Unicorn": {
+                "Ide": {
+                  "rings": [
+                    {
+                      "name": "Earth"
+                    },
+                    {
+                      "name": "Water"
+                    }
+                  ]
+                },
+                "Iuchi": {
+                  "rings": [
+                    {
+                      "name": "Air"
+                    },
+                    {
+                      "name": "Void"
+                    }
+                  ]
+                },
+                "Moto": {
+                  "rings": [
+                    {
+                      "name": "Earth"
+                    },
+                    {
+                      "name": "Fire"
+                    }
+                  ]
+                },
+                "Shinjo": {
+                  "rings": [
+                    {
+                      "name": "Fire"
+                    },
+                    {
+                      "name": "Water"
+                    }
+                  ]
+                },
+                "Utaku": {
+                  "rings": [
+                    {
+                      "name": "Earth"
+                    },
+                    {
+                      "name": "Fire"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
