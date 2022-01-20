@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './characterCreation.css';
-import Rings from './Rings';
+import Rings from '../Components/L5R/CharacterCreation/Rings';
 import QuestionInput from './QuestionInput';
 
 function CharacterCreationForm({ characterCreation }) {
@@ -35,18 +35,6 @@ function CharacterCreationForm({ characterCreation }) {
     familyRing: false,
     school: false,
   })
-  
-  // maps over the clan Object of the selected Family in the gamesApi.json file and returns an option for the select tag inside of the Family.jsx
-  // passed as a prop.
-  // const families = characterCreation[0].Families[0][clan].map(familyOption => {
-  //   return <option key={familyOption.familyName} value={familyOption.familyName} >{familyOption.familyName}</option>;
-  // });
-  
-  //Maps over the Schools object of the selected Clan in the gamesApi.json file and returns all the options for the School select input.
-  // const schools = characterCreation[0].Schools[clan].map(schoolOption => {
-  //   // console.log('schoolOption', schoolOption.rings)
-  //   return <option key={schoolOption.schoolName} value={schoolOption.schoolName} >{schoolOption.schoolName}</option>
-  // })
 
   // setRings(Object.assign({}, ring, {air: ring.air + 1}))
   const updateClan = (clan) => {

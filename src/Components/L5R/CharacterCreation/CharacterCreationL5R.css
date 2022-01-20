@@ -1,11 +1,10 @@
-.card-container {
-  /* background: yellow; */
-  /* height: 500px; */
-}
+/* .card-container {
+
+} */
 
 .card-container img {
   height: 50px;
-}
+};
 
 .main-container {
   display: flex;
@@ -13,14 +12,11 @@
   justify-content: center;
   flex-direction: column;
   position: relative;
-  /* background: blue; */
 }
 
 .tracker {
   display: flex;
   flex-direction: row;
-  /* color: white; */
-  /* background: black; */
 }
 
 .tracker-color {
@@ -30,14 +26,12 @@
 }
 
 .untracked {
-  /* color: white; */
   height: 35px;
 }
 
 .left-align {
   align-items: flex-start;
   text-align: left;
-  /* background: cyan; */
 }
 
 .checklist {
@@ -47,7 +41,6 @@
 }
 
 .checklist input {
-  /* background: blue; */
   margin-right: 15px;
 }
 
@@ -73,7 +66,6 @@
   margin: 10px;
   justify-content: space-between;
   height: 450px;
-  /* background: red; */
 }
 
 .carousel-buttons {
@@ -86,7 +78,6 @@
   width: 100px;
   position: relative;
   margin: 0 5px 0 5px;
-  /* bottom: -20px; */
 };
 
 .card-image {

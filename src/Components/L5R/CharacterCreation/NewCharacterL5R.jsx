@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import gamesApi from '../../../api/gamesApi.json';
-import './CharacterCreationL5R.css';
+// import './CharacterCreationL5R.css';
 import CharacterCreationTracker from './CharacterCreationTracker';
 import Rings from './Rings';
 
 const NewCharacterL5R = () => {
-
+  
+  // State Values for Creating Character.
   const [ toggleStart, setToggleStart ] = useState(false);
   const [ clan, setClan ] = useState("");
   const [ clanIndex, setClanIndex ] = useState(0);
@@ -19,8 +20,9 @@ const NewCharacterL5R = () => {
   const [ emotionConfirm, setEmotionConfirm ] = useState(false);
   const [ relationship, setRelationship ] = useState('');
   const [ relationshipConfirm, setRelationshipConfirm ] = useState(false);
-  const [ bushido, setBushido ] = useState(null);
+  const [ bushido, setBushido ] = useState('');
   const [ bushidoConfirm, setBushidoConfirm ] = useState(false);
+  const [ status, setStatus ] = useState(0);
   const [ glory, setGlory ] = useState(0);
   const [ honor, setHonor ] = useState(0);
   const [ koku, setKoku ] = useState(0);
@@ -49,34 +51,32 @@ const NewCharacterL5R = () => {
     survival: 0,
   });
   const [ rings, setRings ] = useState({
-    Air: 1,
-    Earth: 1,
-    Fire: 1,
-    Water: 1,
-    Void: 1,
-  })
-  const [ weapons, setWeapons ] = useState([]);
-  const [ armor, setArmor ] = useState([]);
-  const [ gear, setGear ] = useState([]);
-  const [ combatSkills, setCombatSkills ] = useState([]);
-  const [ techniques, setTechniques ] = useState([]);
-  const [ exp, setExp ] = useState(0);
+    air: 1,
+    earth: 1,
+    fire: 1,
+    water: 1,
+    void: 1,
+  });
+  const [ extraRingPool, setExtraRingPool ] = useState(0);
+  const [ ringsConfirm, setRingsConfirm ] = useState(false);
+  // const [ weapons, setWeapons ] = useState([]);
+  // const [ armor, setArmor ] = useState([]);
+  // const [ gear, setGear ] = useState([]);
+  // const [ combatSkills, setCombatSkills ] = useState([]);
+  // const [ techniques, setTechniques ] = useState([]);
+  // const [ exp, setExp ] = useState(0);
   
-  // Destructuring Api Objects for clans
+  // Destructuring Api Objects for fetching data.
   const { game: { L5R: { characterCreation }}} = gamesApi;
   const clans = characterCreation[0].clans;
   const families = clan ? characterCreation[0].families[0][clan]: "";
   const schools = clan && family ? characterCreation[0].schools[clan]: '';
   const famRing1 = family ? characterCreation[0].ringIncreases.Family[clan][family].rings[0].name : ""
   const famRing2 = family ? characterCreation[0].ringIncreases.Family[clan][family].rings[1].name : ""
-  console.log('');
-  console.log('clan', clan);
-  console.log('family', family);
-  console.log('school', school);
-  console.log('emotion', emotion);
-  console.log('relationship', relationship);
-  console.log('bushido', bushido);
-  console.log('');
+
+  console.log('RELATIONSIHP', relationship);
+  console.log('BUSHIDO', bushido);
+  
 
   const getData = (array, index) => {
     const cardDisplay = array.map(val => {
@@ -119,36 +119,31 @@ const NewCharacterL5R = () => {
   };
 
   const updateRings = (ringValue) => {
-    console.log('updateRings function fired with value of', ringValue);
+    // console.log('updateRings function fired with value of', ringValue);
     setRings((prevRing) => {
       return Object.assign({}, prevRing, {
         [ringValue.toLowerCase()]: prevRing[ringValue.toLowerCase()] + 1
       })
     });
-
   };
 
-  const updateFamilyRing = (ring) => {
-    console.log('updateFamilyRing fired with a value of', ring);
-    updateRings(ring)
-    // setToggle(Object.assign({}, toggle, {familyRing: true}));
-  }
-
   const updateSchool = (school) => {
-    console.log('school choice: ', school)
+    // console.log('school choice: ', school)
     let elementRings;
-    characterCreation[0].Schools[clan].forEach(element => {
+    schools.forEach(element => {
       if(element.name === school) {
         elementRings = element.rings;
       }
     });
-    console.log('element rings', elementRings)
+    // console.log('element rings', elementRings)
+    // console.log('::UPDATING RINGS WITH SCHOOL RING1::', elementRings[0]);
     updateRings(elementRings[0]);
+    // console.log('::UPDATING RINGS WITH SCHOOL RING2::', elementRings[2]);
     updateRings(elementRings[1]); 
     // setToggle(Object.assign({}, toggle, {school: true}));
-  }
+  };
 
-  const generateRings = () => {
+  const generateCharacterSheet = (rings) => {
     const clanMapping = {
       "Crab": "Earth",
       "Crane": "Air",
@@ -158,10 +153,59 @@ const NewCharacterL5R = () => {
       "Scorpion": "Air",
       "Unicorn": "Water"
     };
+    // console.log('::UPDATING RINGS WITH CLAN RING::', clanMapping[clan]);
     updateRings(clanMapping[clan]);
+    // console.log('::UPDATING RINGS WITH FAMILY RING::', familyRing);
     updateRings(familyRing);
+    // console.log('updateSchool: school::', school);
     updateSchool(school);
+    // console.log('UPDATE EMOTION RING::', emotion);
+    updateRings(emotion);
+    setBushidoConfirm(true);
+    getGlory();
+    getStatus();
+    getHonor();
   };
+
+  const updateRingPool = (operator) => {
+    setExtraRingPool((prevRing) => {
+      console.log('extraRingPool IN UPDATE', extraRingPool);
+      return prevRing + operator
+    });
+  };
+
+  const reduceRing = (ringValue, operator) => {
+    console.log('reducing ring')
+    setRings((prevRing) => {
+      return Object.assign({}, prevRing, {
+        [ringValue.toLowerCase()]: prevRing[ringValue.toLowerCase()] - 1
+      })
+    });
+    updateRingPool(operator);
+  };
+
+  const getGlory = (family, ) => {
+    let gloryValue;
+    if ( relationship === 'obedient') {
+      gloryValue = families[familyIndex].glory + 5;
+    } else {
+      gloryValue = families[familyIndex].glory;
+    }
+    setGlory(gloryValue);
+  };
+
+  const getStatus = (clan) => {
+    let statusValue = clans[clanIndex].status;
+    setStatus(statusValue);
+    console.log('statusValue', statusValue)
+  };
+
+  const getHonor = (school) => {
+    // bushido
+  };
+
+
+  // console.log('extraRingPool', extraRingPool);
 
   return (
     <div className="component-container">
@@ -200,7 +244,7 @@ const NewCharacterL5R = () => {
           </div>
           <div className='journey-button'>
             <button disabled={true} onClick={() => setClan("")}>Go Back</button>
-            <button onClick={() => selectedCharacterChoice(clans, clanIndex, setClan)}>Confirm</button>
+            <button onClick={() => selectedCharacterChoice(clans, clanIndex, setClan)}>Continue</button>
           </div>
         </div>
       )}
@@ -212,13 +256,13 @@ const NewCharacterL5R = () => {
           <div className='carousel'>
             {getData(families, familyIndex)}
             <div className='carousel-buttons'>
-              <button onClick={() => setCard(families, familyIndex, -1, setFamilyIndex)}>Prev</button>
-              <button onClick={() => setCard(families, familyIndex, +1, setFamilyIndex)}>Next</button>
+              <button onClick={() => setCard(families, familyIndex, -1, setFamilyIndex)}>Prev Family</button>
+              <button onClick={() => setCard(families, familyIndex, +1, setFamilyIndex)}>Next Family</button>
             </div>
           </div>
           <div className='journey-button'>
             <button onClick={() => setClan("")}>Go Back</button>
-            <button onClick={() => selectedCharacterChoice(families, familyIndex, setFamily)}>Confirm</button>
+            <button onClick={() => selectedCharacterChoice(families, familyIndex, setFamily)}>Continue</button>
           </div>
         </div>
       )}
@@ -237,7 +281,7 @@ const NewCharacterL5R = () => {
         </div>
         <div className='journey-button'>
           <button onClick={() => setFamily("")}>Go Back</button>
-          <button onClick={() => setFamilyRingConfirm(true)}>Confirm</button>
+          <button onClick={() => setFamilyRingConfirm(true)}>Continue</button>
         </div>
       </div>
       )}
@@ -249,13 +293,13 @@ const NewCharacterL5R = () => {
         <div className='carousel'>
           {getData(schools, schoolIndex)}
           <div className='carousel-buttons'>
-            <button onClick={() => setCard(schools, schoolIndex, -1, setSchoolIndex)}>Prev</button>
-            <button onClick={() => setCard(schools, schoolIndex, +1, setSchoolIndex)}>Next</button>
+            <button onClick={() => setCard(schools, schoolIndex, -1, setSchoolIndex)}>Prev School</button>
+            <button onClick={() => setCard(schools, schoolIndex, +1, setSchoolIndex)}>Next School</button>
           </div>
         </div>
         <div className='journey-button'>
           <button onClick={() => setFamily("")}>Go Back</button>
-          <button onClick={() => selectedCharacterChoice(schools, schoolIndex, setSchool)}>Confirm</button>
+          <button onClick={() => selectedCharacterChoice(schools, schoolIndex, setSchool)}>Continue</button>
         </div>
       </div>
       )}
@@ -288,7 +332,7 @@ const NewCharacterL5R = () => {
           </div>
           <div className='journey-button'>
             <button onClick={() => setSchool("")}>Go Back</button>
-            <button onClick={() => setEmotionConfirm(true)}>Confirm</button>
+            <button onClick={() => setEmotionConfirm(true)}>Continue</button>
           </div>
         </div>
       )}
@@ -310,7 +354,7 @@ const NewCharacterL5R = () => {
           </div>
           <div className='journey-button'>
             <button onClick={() => setEmotionConfirm(false)}>Go Back</button>
-            <button onClick={() => setRelationshipConfirm(true)}>Confirm</button>
+            <button onClick={() => setRelationshipConfirm(true)}>Continue</button>
           </div>
         </div>
       )}
@@ -330,24 +374,41 @@ const NewCharacterL5R = () => {
           </div>
           <div className='journey-button'>
             <button onClick={() => setRelationshipConfirm(false)}>Go Back</button>
-            <button onClick={() => setBushidoConfirm(true)}>Confirm</button>
+            <button onClick={() => generateCharacterSheet(rings)}>Continue</button>
           </div>
         </div>
       )}
 
       {/* Final Step - Display Character Sheet */}
-      { bushidoConfirm && (
+      {  bushidoConfirm && (
         <div>
-          <Rings rings={rings} />
-          <p>Clan: {clan}</p>
-          <p>Family: {family}</p>
-          <p>School: {school}</p>
-          <p>Glory:</p>
-          <p>Honor:</p>
-          <p>Koku:</p>
-          <p></p>
+          <Rings 
+            rings={rings} 
+            setRings={setRings} 
+            reduceRing={reduceRing} 
+            updateRings={updateRings} 
+            updateRingPool={updateRingPool} 
+            extraRingPool={extraRingPool} 
+            setRingsConfirm={setRingsConfirm}
+          />
+          <p>Ring Points to spend {extraRingPool}</p>
         </div>
       )}
+
+      {
+        ringsConfirm && (
+          <div>
+            <p>Clan: {clan}</p>
+            <p>Family: {family}</p>
+            <p>School: {school}</p>
+            <p>Glory: {glory}</p>
+            <p>Honor: {honor}</p>
+            <p>Status: {status}</p>
+            <p>Koku: {koku}</p>
+            {/* <p>Skills: {skills}</p> */}
+          </div>
+        )
+      }
 
     </div>
   );

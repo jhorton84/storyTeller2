@@ -5,13 +5,13 @@
   height: 90%;
   justify-content: center;
   align-items: center;
-  background: green;
-}
+  /* background: green; */
+};
 
 .main1 {
   width: 90%;
   height: 90%;
-  background: whitesmoke;
+  /* background: whitesmoke; */
 }
 
 .row {

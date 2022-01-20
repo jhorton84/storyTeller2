@@ -1,0 +1,35 @@
+.ring {
+  /* background: black; */
+  /* color: white; */
+  border-radius: 50%;
+  border: solid black 2px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ring p {
+  margin: 10px;
+}
+
+.rings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-ring {
+  position: relative;
+  bottom: 35px;
+}
+
+.push div {
+  margin: 0 30px;
+};
+
+.hidden {
+  display: none;
+}

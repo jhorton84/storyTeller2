@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router';
 import './App.css';
-import Nav from './Components/Nav/Nav.js';
+import Nav from './Components/Nav/Nav';
 import Main from './Components/screens/MainScreen/MainScreen';
 // import DnD from './Components/Games/DnD/DnD';
 import L5RScreen from './Components/screens/L5RScreen/L5Rscreen';

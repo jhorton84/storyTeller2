@@ -2,29 +2,30 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+  /* display: flex; */
   align-items: center;
   flex-direction: column;
   position: relative;
-  /* background: black; */
 }
 
 .canvas {
   position: relative;
   top: 75px;
   max-width: 1000px;
+  /* background: whitesmoke; */
+  /* height: 100vh;
+  width: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
   margin: auto;
-  /* background: red; */
 }
 .routes-components {
   width: 100%;
   display: flex;
   top: 75px;
   justify-content: center;
-  /* background: blue; */
 }
 
 .component-container {
@@ -32,22 +33,51 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background: yellow; */
 }
 
 .L5R-routes {
   width: 80%;
   text-align: left;
-  /* background: gray; */
 }
 
 .card-container {
-  /* background: pink; */
 }
 
 .card-container img {
   height: 50px;
 };
+
+/* .ring {
+  background: black;
+  color: white;
+  border-radius: 50%;
+  border: solid black 2px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} */
+
+.ring p {
+  margin: 0;
+}
+
+.rings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-ring {
+  position: relative;
+  bottom: 35px;
+}
+
+.push div {
+  margin: 0 30px;
+}
 
 .main-container {
   display: flex;
@@ -55,25 +85,21 @@
   justify-content: center;
   flex-direction: column;
   position: relative;
-  /* background: yellowgreen; */
 }
 
 .tracker {
   display: flex;
   flex-direction: row;
-  /* background: whitesmoke; */
 }
 
 .tracker-color {
   color: red;
   border-bottom: 2px solid red;
   height: 35px;
-  /* background: purple; */
 }
 
 .untracked {
   height: 35px;
-  /* background: indigo; */
 }
 
 .left-align {
@@ -85,7 +111,6 @@
   display: flex;
   align-items: center;
   margin-bottom: 15px;
-  /* background: skyblue; */
 }
 
 .checklist input {
@@ -114,7 +139,6 @@
   margin: 10px;
   justify-content: space-between;
   height: 450px;
-  /* background: brown; */
 }
 
 .carousel-buttons {
@@ -132,3 +156,24 @@
 .card-image {
   max-width: 50px;
 };
+
+.ring {
+  background: black;
+  color: white;
+  border-radius: 50%;
+  border: solid black 2px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+/* @media (min-width: 768px) {
+  .routes-components {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+  }
+} */
