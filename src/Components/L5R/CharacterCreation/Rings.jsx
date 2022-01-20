@@ -1,4 +1,3 @@
-import nodemon from 'nodemon';
 import React, { useState, useEffect } from 'react';
 import './Rings.css';
 

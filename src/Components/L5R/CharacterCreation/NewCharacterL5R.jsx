@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import gamesApi from '../../../api/gamesApi.json';
 // import './CharacterCreationL5R.css';
 import CharacterCreationTracker from './CharacterCreationTracker';
@@ -165,6 +165,8 @@ const NewCharacterL5R = () => {
     getGlory();
     getStatus();
     getHonor();
+    getKoku();
+    getSkills();
   };
 
   const updateRingPool = (operator) => {
@@ -202,7 +204,18 @@ const NewCharacterL5R = () => {
 
   const getHonor = (school) => {
     // bushido
+    setHonor(honor)
   };
+
+  const getKoku = () => {
+    setKoku(koku);
+  };
+
+  const getSkills = () => {
+    for (const skill in skills) {
+      return <p>{skill}</p>
+    };
+  }
 
 
   // console.log('extraRingPool', extraRingPool);
@@ -380,7 +393,7 @@ const NewCharacterL5R = () => {
       )}
 
       {/* Final Step - Display Character Sheet */}
-      {  bushidoConfirm && (
+      {  bushidoConfirm && !ringsConfirm &&(
         <div>
           <Rings 
             rings={rings} 
@@ -405,7 +418,6 @@ const NewCharacterL5R = () => {
             <p>Honor: {honor}</p>
             <p>Status: {status}</p>
             <p>Koku: {koku}</p>
-            {/* <p>Skills: {skills}</p> */}
           </div>
         )
       }
